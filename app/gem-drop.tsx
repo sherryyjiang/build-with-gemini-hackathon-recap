@@ -28,7 +28,7 @@ function pad(value: number) {
   return String(value).padStart(2, "0");
 }
 
-const sparks = Array.from({ length: 20 }, (_, index) => ({
+const sparks = Array.from({ length: 8 }, (_, index) => ({
   left: `${(index * 37 + 9) % 96}%`,
   delay: `${-((index * 0.71) % 4.8)}s`,
   duration: `${3.4 + (index % 6) * 0.42}s`,
@@ -39,7 +39,7 @@ export function GemDrop() {
   const [now, setNow] = useState(() => Date.now());
 
   useEffect(() => {
-    const timer = window.setInterval(() => setNow(Date.now()), 250);
+    const timer = window.setInterval(() => setNow(Date.now()), 1000);
     return () => window.clearInterval(timer);
   }, []);
 
@@ -50,10 +50,6 @@ export function GemDrop() {
 
   return (
     <main className={complete ? "world complete" : "world"}>
-      <div className="noise" aria-hidden="true" />
-      <div className="orb orb-one" aria-hidden="true" />
-      <div className="orb orb-two" aria-hidden="true" />
-
       <header className="topbar">
         <div className="event-lockup">
           <img className="mini-gem" src="/gemini-sparkle.svg" alt="" />
@@ -64,7 +60,6 @@ export function GemDrop() {
 
       <section className="hero">
         <div className="copy">
-          <p className="eyebrow">FINAL SUBMISSION COUNTDOWN</p>
           <h1>{complete ? <>THE GEM<br />HAS LANDED!</> : <>THE GREAT<br />GEM DROP</>}</h1>
           <p className="dek">
             {complete
@@ -72,7 +67,7 @@ export function GemDrop() {
               : "The clock is closing in. Lock the build. Check the demo. Submit before it lands."}
           </p>
 
-          <div className="timer" role="timer" aria-live="polite" aria-label={complete ? "Countdown complete" : `${time.hours} hours, ${time.minutes} minutes, ${time.seconds} seconds remaining`}>
+          <div className="timer" role="timer" aria-live={complete ? "polite" : "off"} aria-label={complete ? "Countdown complete" : `${time.hours} hours, ${time.minutes} minutes, ${time.seconds} seconds remaining`}>
             {complete ? (
               <div className="shipped">TIME’S UP <span>→</span> SHIP IT!</div>
             ) : (
@@ -88,17 +83,16 @@ export function GemDrop() {
 
           <div className="submission-card">
             <a className="qr-wrap" href={SUBMISSION_URL} target="_blank" rel="noreferrer" aria-label="Open the project submission form">
-              <QRCodeSVG value={SUBMISSION_URL} size={118} level="M" bgColor="#fff7df" fgColor="#110e20" marginSize={2} />
+              <QRCodeSVG value={SUBMISSION_URL} size={176} level="M" bgColor="#fff7df" fgColor="#110e20" marginSize={2} />
             </a>
             <div className="submit-copy">
-              <span className="submit-kicker">🚨 SUBMISSIONS OPEN</span>
-              <strong>SCAN. SUBMIT. SURVIVE.</strong>
-              <a href={SUBMISSION_URL} target="_blank" rel="noreferrer">OPEN SUBMISSION FORM →</a>
+              <span className="submit-kicker">SUBMISSIONS OPEN</span>
+              <strong>SCAN TO<br />SUBMIT</strong>
+              <a href={SUBMISSION_URL} target="_blank" rel="noreferrer">OPEN SUBMISSION FORM</a>
             </div>
           </div>
 
           <div className="deadline-row">
-            <span className="clock-icon">◷</span>
             <span>DEADLINE</span>
             <strong>3:30 PM SGT</strong>
             <span className="date">22 AUG 2026</span>
@@ -107,7 +101,6 @@ export function GemDrop() {
 
         <div className="drop-zone" aria-hidden="true">
           <div className="drop-label">{complete ? "TOUCHDOWN" : "GEM INCOMING"}</div>
-          <div className="flight-path" />
           <div className="big-gem" style={{ top: `${gemTop}%` }}>
             <div className="gem-glow" />
             <img className="gemini-logo" src="/gemini-sparkle.svg" alt="" />
@@ -125,15 +118,14 @@ export function GemDrop() {
           <div className="landing-pad">
             <div className="pad-ring ring-one" />
             <div className="pad-ring ring-two" />
-            <div className="pad-core">{complete ? "★" : "DROP ZONE"}</div>
+            <div className="pad-core">{complete ? "LANDED" : "DROP ZONE"}</div>
           </div>
           <p className="progress-label">{complete ? "100% BUILT" : `${Math.round(progress * 100)}% TO TOUCHDOWN`}</p>
         </div>
       </section>
 
       <footer>
-        <span>⚡ BUILT WITH BIG IDEAS &amp; QUESTIONABLE AMOUNTS OF CAFFEINE</span>
-        <span className="blink">DON’T PANIC. JUST BUILD.</span>
+        <span>BUILT WITH BIG IDEAS &amp; QUESTIONABLE AMOUNTS OF CAFFEINE</span>
       </footer>
     </main>
   );
