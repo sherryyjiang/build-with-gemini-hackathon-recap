@@ -45,11 +45,40 @@ export function GemDrop() {
 
   const time = useMemo(() => getTimeLeft(now), [now]);
   const complete = time.total === 0;
+  const finalMinute = time.total > 0 && time.total <= 60_000;
+  const critical = time.total > 60_000 && time.total <= 5 * 60_000;
+  const urgent = time.total > 5 * 60_000 && time.total <= 15 * 60_000;
   const progress = Math.min(1, Math.max(0, 1 - time.total / DROP_WINDOW));
   const gemTop = 8 + progress * 62;
+  const worldClass = [
+    "world",
+    complete && "complete",
+    urgent && "urgent",
+    critical && "critical",
+    finalMinute && "final-minute",
+  ].filter(Boolean).join(" ");
+  const dropStatus = complete
+    ? "TOUCHDOWN"
+    : finalMinute
+      ? "FINAL 60 SECONDS"
+      : critical
+        ? "FINAL 5 MINUTES"
+        : urgent
+          ? "FINAL 15 MINUTES"
+          : "GEM INCOMING";
+  const urgencyAnnouncement = finalMinute
+    ? "Final 60 seconds. Submit now."
+    : critical
+      ? "Five minutes remain until submissions close."
+      : urgent
+        ? "Fifteen minutes remain until submissions close."
+        : complete
+          ? "Submissions are now closed."
+          : "";
 
   return (
-    <main className={complete ? "world complete" : "world"}>
+    <main className={worldClass}>
+      <p className="sr-only" aria-live="polite" aria-atomic="true">{urgencyAnnouncement}</p>
       <header className="topbar">
         <div className="event-lockup">
           <img className="mini-gem" src="/gemini-sparkle.svg" alt="" />
@@ -100,7 +129,7 @@ export function GemDrop() {
         </div>
 
         <div className="drop-zone" aria-hidden="true">
-          <div className="drop-label">{complete ? "TOUCHDOWN" : "GEM INCOMING"}</div>
+          <div className="drop-label">{dropStatus}</div>
           <div className="big-gem" style={{ top: `${gemTop}%` }}>
             <div className="gem-glow" />
             <img className="gemini-logo" src="/gemini-sparkle.svg" alt="" />
