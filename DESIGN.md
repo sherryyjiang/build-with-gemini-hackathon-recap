@@ -2,36 +2,42 @@
 name: "Build with Gemini Hackathon 2026 Recap"
 description: "A deck-aligned public record for 61 Gemini hackathon submissions."
 colors:
-  canvas: "#050506"
-  paper: "#0B0B0C"
-  soft: "#202124"
-  divider: "#3C4043"
-  ink: "#F8F9FA"
-  muted: "#BDC1C6"
-  quiet: "#9AA0A6"
-  google-blue: "#4285F4"
-  google-red: "#EA4335"
-  google-yellow: "#FBBC04"
-  google-green: "#34A853"
-  google-blue-soft: "#A8C7FA"
-  google-red-soft: "#F2AAA4"
-  google-green-soft: "#71D18A"
+  canvas: "#F7F9FC"
+  paper: "#FFFFFF"
+  soft: "#EEF3F8"
+  divider: "#DADCE0"
+  ink: "#202124"
+  muted: "#5F6368"
+  quiet: "#6F7781"
+  google-blue: "#1A73E8"
+  google-red: "#D93025"
+  google-yellow: "#E37400"
+  google-green: "#188038"
+  google-yellow-bright: "#F9AB00"
+  gemini-purple: "#9B72CB"
+  blue-deep: "#174EA6"
+  red-deep: "#A50E0E"
+  yellow-deep: "#B06000"
+  green-deep: "#137333"
+  blue-outline: "#A8C7FA"
+  warning-line: "#F6C344"
+  gray-on-image: "#E8EAED"
 typography:
   family: "Google Sans Flex Variable, Google Sans, Arial, Helvetica, sans-serif"
   displayWeight: 400
   labelWeight: 500
-  displayTracking: "-0.04em"
+  displayTracking: "-0.035em"
   bodyLineHeight: 1.55
 shape:
   corners: "square"
-  rule: "1px solid #3C4043"
+  rule: "1px solid #DADCE0"
 ---
 
 # Design System: The Google Gemini Build Record
 
 ## North star
 
-The public recap extends the supplied slide-six event system into a long-form archive. It is stage-dark, spacious, and precise: near-black fields, Google Sans Flex, thin graphite rules, a single clear Gemini-blue signal, and restrained red, yellow, and green only where the tracks or awards require them.
+The public recap extends the supplied slide-six event system into a light, long-form studio archive. Warm-white fields, Google Sans Flex, thin cool-gray rules, documentary photography, and a single clear Gemini-blue signal make the record easier to read while retaining the event identity.
 
 The page should feel like the event deck opened into a website, not like a generic landing page or app dashboard.
 
@@ -41,15 +47,15 @@ Google Sans Flex Variable is bundled locally and used for every role. Large head
 
 ## Color
 
-- Canvas `#050506` and paper `#0B0B0C` carry the page.
-- Ink `#F8F9FA`, muted `#BDC1C6`, and quiet `#9AA0A6` establish hierarchy.
-- Divider `#3C4043` supplies the slide-like structure.
-- Blue `#4285F4` is the principal interaction and track signal.
-- Red `#EA4335`, yellow `#FBBC04`, and green `#34A853` identify genuine tracks or awards; they are not ambient decoration.
+- Canvas `#F7F9FC` and paper `#FFFFFF` carry the page.
+- Ink `#202124`, muted `#5F6368`, and quiet `#6F7781` establish an accessible reading hierarchy.
+- Divider `#DADCE0` supplies the slide-like structure.
+- Blue `#1A73E8` is the principal interaction and track signal.
+- Red `#D93025`, yellow `#E37400`, and green `#188038` identify genuine tracks or awards; they are not ambient decoration.
 
 ## Layout and components
 
-Sections use generous desktop margins and full-width ruled bands. The hero follows the deck's quiet lockup, large regular headline, concise supporting copy, and progress line. Track panels use the slide-six title → focus → prompt-row composition. Winners and projects remain flat editorial rows rather than cards.
+Sections use generous desktop margins and full-width ruled bands. The hero pairs the deck's quiet lockup and large headline with a documentary room photograph. Tracks form one compact three-column band. Winners use truthful team photography, while the project index uses video stills where available and deterministic Gemini-palette visuals everywhere else.
 
 Search, filters, and link actions are square, visibly ruled, and high contrast. Active controls use a blue border and faint blue wash. Project and demo links are separate status lanes: available links use green text; links that need attention use a yellow rule and label.
 
@@ -58,7 +64,7 @@ Photography is documentary and full-bleed within a structured mosaic. Captions u
 ## Rules
 
 - Use Google Sans Flex throughout; do not reintroduce an expressive display/mono split.
-- Keep the page nearly flat: no floating card grid, decorative shadows, stamped badges, or orbital illustrations.
+- Keep the page mostly flat: photography may use restrained rounded frames, while core information remains ruled and editorial.
 - Preserve the three track colors as meaning, not decoration.
 - Keep the seven finalists first; all other builds use the stable public shuffle and public numbering.
 - Never remove a supplied project or demo URL silently. Show all alternates and label incomplete public links.

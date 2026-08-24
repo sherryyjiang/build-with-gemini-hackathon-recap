@@ -1,6 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import { useMemo, useState } from "react";
+import galleryAssets from "../data/gallery-assets.json";
 
 export type Submission = {
   id: number;
@@ -20,6 +22,18 @@ type LinkAudit = {
   status: "complete" | "needs_update" | "missing";
   reason: string;
 };
+
+type GalleryVisual = {
+  kind: "youtube_thumbnail" | "generated_fallback";
+  thumbnailUrl?: string;
+  palette?: string;
+  monogram?: string;
+  alt: string;
+};
+
+const visualById = new Map(
+  galleryAssets.assets.map((asset) => [asset.id, asset.visual as GalleryVisual]),
+);
 
 const filters = ["All", "Best Use of Gemma", "Best Elderly Hack", "Most Creative Gemini Hack"];
 
@@ -63,6 +77,39 @@ function LinkGroup({ label, links, audit }: { label: string; links: string[]; au
   );
 }
 
+function ProjectVisual({ submission }: { submission: Submission }) {
+  const visual = visualById.get(submission.id);
+  if (visual?.kind === "youtube_thumbnail" && visual.thumbnailUrl) {
+    return (
+      <div className="project-visual project-video-visual">
+        <Image
+          src={visual.thumbnailUrl}
+          alt={visual.alt}
+          fill
+          sizes="(max-width: 760px) 100vw, 220px"
+          referrerPolicy="no-referrer"
+        />
+        <span>Demo still</span>
+      </div>
+    );
+  }
+
+  return (
+    <div className={`project-visual project-fallback ${visual?.palette ?? "gemini-blue"}`} role="img" aria-label={visual?.alt ?? `Graphic for ${submission.name}`}>
+      <GeminiVisualMark />
+      <strong>{visual?.monogram ?? submission.name.slice(0, 1).toUpperCase()}</strong>
+    </div>
+  );
+}
+
+function GeminiVisualMark() {
+  return (
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path d="M16 2.5c1.5 7.4 6.1 12 13.5 13.5C22.1 17.5 17.5 22.1 16 29.5 14.5 22.1 9.9 17.5 2.5 16 9.9 14.5 14.5 9.9 16 2.5Z" fill="currentColor" />
+    </svg>
+  );
+}
+
 export function ProjectGallery({ submissions }: { submissions: Submission[] }) {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState("All");
@@ -97,6 +144,7 @@ export function ProjectGallery({ submissions }: { submissions: Submission[] }) {
           {visible.map((submission) => (
             <article className="project-entry" key={submission.id}>
               <span className="project-number">{String(submission.publicId).padStart(2, "0")}</span>
+              <ProjectVisual submission={submission} />
               <div className="project-main">
                 <div className="project-title-row">
                   <h3>{submission.name}</h3>

@@ -27,10 +27,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body>
         <template dangerouslySetInnerHTML={{ __html: `<!--
 THESIS: The event deck becomes a durable public build record: stage-dark, spacious, and precise enough to browse sixty-one projects without losing the energy of the room.
-OWN-WORLD: Near-black fields, Google Sans Flex, thin graphite rules, one clear Gemini-blue signal, and restrained red, yellow, and green track accents.
+OWN-WORLD: Warm-white studio fields, Google Sans Flex, thin cool-gray rules, one clear Gemini-blue signal, and restrained red, yellow, and green track accents.
 STORY: Visitors enter through the event's scale, understand the three tracks, see the winning builds and Saturday photographs, then explore a privacy-preserving shuffled build index.
-FIRST VIEWPORT: A quiet Gemini lockup, monumental event statement, and ruled event facts recreate the confidence and proportions of the briefing deck.
-FORM: Dark Google event record, pinned by the supplied slide-six system.
+FIRST VIEWPORT: A quiet Gemini lockup, monumental event statement, documentary event photograph, and ruled facts open the archive with clarity.
+FORM: Light Google studio archive, evolved from the supplied slide-six system for sustained reading.
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
 -->` }} />
         {children}

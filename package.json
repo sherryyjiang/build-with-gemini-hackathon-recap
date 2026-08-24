@@ -10,6 +10,7 @@
     "build": "next build",
     "start": "next start",
     "test": "node --test tests/site.test.mjs",
+    "assets:generate": "node scripts/generate-gallery-assets.mjs",
     "lint": "eslint . --ignore-pattern .next"
   },
   "dependencies": {

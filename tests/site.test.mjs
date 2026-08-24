@@ -26,3 +26,21 @@ test("recap includes every confirmed winner", async () => {
     assert.match(page, new RegExp(project));
   }
 });
+
+test("gallery asset manifest covers every public submission without contact data", async () => {
+  const [submissionSource, assetSource] = await Promise.all([
+    readFile(new URL("../data/submissions.json", import.meta.url), "utf8"),
+    readFile(new URL("../data/gallery-assets.json", import.meta.url), "utf8"),
+  ]);
+  const submissions = JSON.parse(submissionSource);
+  const manifest = JSON.parse(assetSource);
+  const thumbnails = manifest.assets.filter(({ visual }) => visual.kind === "youtube_thumbnail");
+
+  assert.equal(manifest.assets.length, submissions.length);
+  assert.deepEqual(manifest.assets.map(({ id }) => id), submissions.map(({ id }) => id));
+  assert.equal(manifest.counts.youtubeThumbnails, thumbnails.length);
+  assert.equal(manifest.counts.generatedFallbacks + thumbnails.length, submissions.length);
+  assert.equal(assetSource.includes("@gmail.com"), false);
+  assert.equal(assetSource.includes("Contact Email"), false);
+  assert.equal(thumbnails.every(({ visual }) => /^https:\/\/i\.ytimg\.com\/vi\/[A-Za-z0-9_-]{11}\/hqdefault\.jpg$/.test(visual.thumbnailUrl)), true);
+});

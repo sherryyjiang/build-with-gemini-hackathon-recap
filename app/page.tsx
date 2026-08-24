@@ -8,7 +8,6 @@ const tracks = [
     name: "Best Use of Gemma",
     focus: "Open models, pushed further",
     description: "Push an open model somewhere thoughtful, useful, or technically surprising.",
-    prompts: ["Run privately or at the edge", "Adapt the model for a specific community", "Make openness essential to the product"],
     color: "blue",
   },
   {
@@ -16,7 +15,6 @@ const tracks = [
     name: "Best Elderly Hack",
     focus: "Silver AI — Designing Gemini for Seniors",
     description: "Make modern technology easier for older adults to use, trust, and stay connected through.",
-    prompts: ["Reduce cognitive and interaction load", "Design for trust and dignity", "Build for real-world care"],
     color: "red",
   },
   {
@@ -24,16 +22,15 @@ const tracks = [
     name: "Most Creative Gemini Hack",
     focus: "The unexpected use of Gemini Flash 3.7",
     description: "Build the wildest, fastest, or most original use of Gemini Flash 3.7.",
-    prompts: ["Make model behavior visible", "Create a memorable live moment", "Turn speed into an advantage"],
     color: "yellow",
   },
 ] as const;
 
 const winners = [
-  { award: "Best Use of Gemma", project: "Gemma Companion", color: "blue", prize: "US$1,000" },
-  { award: "Best Elderly Hack", project: "Project Rehab", color: "red", prize: "US$1,000" },
-  { award: "Most Creative Gemini Hack", project: "OrcAIPlay", color: "yellow", prize: "US$1,000" },
-  { award: "Honorable Mention", project: "Sentry", color: "green", prize: "Recognition" },
+  { award: "Best Use of Gemma", project: "Gemma Companion", color: "blue", image: "/photos/winner-gemma-companion.jpg", alt: "Gemma Companion team members pose beside the Best Use of Gemma winner display" },
+  { award: "Best Elderly Hack", project: "Project Rehab", color: "red", image: "/photos/winner-project-rehab.jpg", alt: "Project Rehab team members pose beside the Best Elderly Hack winner display" },
+  { award: "Most Creative Gemini Hack", project: "OrcAIPlay", color: "yellow", image: "/photos/winner-orcaiplay.jpg", alt: "OrcAIPlay team members pose beside the Most Creative Gemini Hack winner display" },
+  { award: "Honorable Mention", project: "Sentry", color: "green", image: "/photos/winner-sentry.jpg", alt: "Sentry team members pose beside the Honorable Mention display" },
 ] as const;
 
 const photos = [
@@ -76,12 +73,16 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
-        <div className="hero-lockup"><GeminiMark /><span>Build with Gemini Hackathon 2026</span></div>
-        <h1>61 builds.<br /><span>One remarkable day.</span></h1>
-        <div className="hero-lower">
+        <div className="hero-copy">
+          <div className="hero-lockup"><GeminiMark /><span>Build with Gemini Hackathon 2026</span></div>
+          <h1>61 builds.<br /><span>One remarkable day.</span></h1>
           <p>Builders brought Gemini and Gemma into open models, elder-first technology, creative tools, games, safety, memory, and delight.</p>
           <a className="primary-link" href="#gallery">Explore every build <Arrow /></a>
         </div>
+        <figure className="hero-photo">
+          <Image src="/photos/audience.jpg" alt="Builders listening together during the Build with Gemini Hackathon at Lorong AI" fill preload sizes="(max-width: 760px) 100vw, 48vw" />
+          <figcaption>Saturday morning at Lorong AI · 22 August 2026</figcaption>
+        </figure>
         <div className="hero-facts" aria-label="Event summary">
           <div><strong>22 Aug 2026</strong><span>Saturday</span></div>
           <div><strong>Lorong AI</strong><span>Singapore</span></div>
@@ -91,21 +92,18 @@ export default function Home() {
       </section>
 
       <section className="tracks-section" id="tracks" aria-labelledby="tracks-title">
-        <div className="section-heading split-heading">
-          <h2 id="tracks-title">Three tracks.<br />Three ways to push further.</h2>
+        <div className="section-heading compact-heading">
+          <h2 id="tracks-title">Three tracks, three ways to push further.</h2>
           <p>Each winning track awarded US$1,000. Projects could enter up to two tracks.</p>
         </div>
         <div className="track-stack">
           {tracks.map((track) => (
             <article className={`track-panel track-${track.color}`} key={track.name}>
-              <div className="track-number">Track {track.number} · US$1,000</div>
+              <div className="track-number">{track.number}</div>
               <div className="track-copy">
                 <h3>{track.name}</h3>
                 <strong>{track.focus}</strong>
                 <p>{track.description}</p>
-              </div>
-              <div className="track-prompts">
-                {track.prompts.map((prompt) => <span key={prompt}>{prompt}</span>)}
               </div>
             </article>
           ))}
@@ -118,11 +116,12 @@ export default function Home() {
           <p>Three track winners and one project recognized with an honorable mention.</p>
         </div>
         <div className="winner-list">
-          {winners.map((winner, index) => (
+          {winners.map((winner) => (
             <article className={`winner-row winner-${winner.color}`} key={winner.award}>
-              <span>{String(index + 1).padStart(2, "0")}</span>
-              <div><p>{winner.award}</p><h3>{winner.project}</h3></div>
-              <strong>{winner.prize}</strong>
+              <figure>
+                <Image src={winner.image} alt={winner.alt} fill sizes="(max-width: 760px) 100vw, 50vw" />
+              </figure>
+              <div className="winner-copy"><p>{winner.award}</p><h3>{winner.project}</h3></div>
             </article>
           ))}
         </div>

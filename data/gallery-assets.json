@@ -1,0 +1,884 @@
+{
+  "schemaVersion": 1,
+  "source": "data/submissions.json",
+  "thumbnailProvider": "YouTube i.ytimg.com hqdefault",
+  "counts": {
+    "submissions": 61,
+    "youtubeThumbnails": 20,
+    "generatedFallbacks": 41
+  },
+  "assets": [
+    {
+      "id": 1,
+      "publicId": 1,
+      "name": "OrcAIPlay",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/kQETbhTSTjQ/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/kQETbhTSTjQ",
+        "videoId": "kQETbhTSTjQ",
+        "alt": "Video thumbnail for OrcAIPlay",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "O",
+          "seed": "build-with-gemini-2026:1:OrcAIPlay",
+          "alt": "Graphic placeholder for OrcAIPlay"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "publicId": 2,
+      "name": "Project Rehab",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/d9vIyrbXu2Y/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/d9vIyrbXu2Y?si=fB3n2A3UZRLZz5iJ",
+        "videoId": "d9vIyrbXu2Y",
+        "alt": "Video thumbnail for Project Rehab",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "P",
+          "seed": "build-with-gemini-2026:2:Project Rehab",
+          "alt": "Graphic placeholder for Project Rehab"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "publicId": 3,
+      "name": "Gemma Companion",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-blue",
+        "monogram": "G",
+        "seed": "build-with-gemini-2026:3:Gemma Companion",
+        "alt": "Graphic placeholder for Gemma Companion"
+      }
+    },
+    {
+      "id": 4,
+      "publicId": 4,
+      "name": "familiar",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-green",
+        "monogram": "F",
+        "seed": "build-with-gemini-2026:4:familiar",
+        "alt": "Graphic placeholder for familiar"
+      }
+    },
+    {
+      "id": 5,
+      "publicId": 5,
+      "name": "The Heirloom",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/XPuSCc3LHPw/hqdefault.jpg",
+        "sourceUrl": "https://www.youtube.com/watch?v=XPuSCc3LHPw",
+        "videoId": "XPuSCc3LHPw",
+        "alt": "Video thumbnail for The Heirloom",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "T",
+          "seed": "build-with-gemini-2026:5:The Heirloom",
+          "alt": "Graphic placeholder for The Heirloom"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "publicId": 6,
+      "name": "Remember AI",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/6OVWTR_LxEU/hqdefault.jpg",
+        "sourceUrl": "https://youtube.com/shorts/6OVWTR_LxEU",
+        "videoId": "6OVWTR_LxEU",
+        "alt": "Video thumbnail for Remember AI",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "R",
+          "seed": "build-with-gemini-2026:6:Remember AI",
+          "alt": "Graphic placeholder for Remember AI"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "publicId": 7,
+      "name": "Sentry",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/EPVuUo8N1JE/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/EPVuUo8N1JE",
+        "videoId": "EPVuUo8N1JE",
+        "alt": "Video thumbnail for Sentry",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "S",
+          "seed": "build-with-gemini-2026:13:Sentry",
+          "alt": "Graphic placeholder for Sentry"
+        }
+      }
+    },
+    {
+      "id": 17,
+      "publicId": 8,
+      "name": "SAFEstep",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-red",
+        "monogram": "S",
+        "seed": "build-with-gemini-2026:17:SAFEstep",
+        "alt": "Graphic placeholder for SAFEstep"
+      }
+    },
+    {
+      "id": 59,
+      "publicId": 9,
+      "name": "SuperApp",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-blue",
+        "monogram": "S",
+        "seed": "build-with-gemini-2026:59:SuperApp",
+        "alt": "Graphic placeholder for SuperApp"
+      }
+    },
+    {
+      "id": 46,
+      "publicId": 10,
+      "name": "AskFirst",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-green",
+        "monogram": "A",
+        "seed": "build-with-gemini-2026:46:AskFirst",
+        "alt": "Graphic placeholder for AskFirst"
+      }
+    },
+    {
+      "id": 55,
+      "publicId": 11,
+      "name": "Fittra Syaifullah",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-blue",
+        "monogram": "F",
+        "seed": "build-with-gemini-2026:55:Fittra Syaifullah",
+        "alt": "Graphic placeholder for Fittra Syaifullah"
+      }
+    },
+    {
+      "id": 16,
+      "publicId": 12,
+      "name": "Whimsy Heist",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-red",
+        "monogram": "W",
+        "seed": "build-with-gemini-2026:16:Whimsy Heist",
+        "alt": "Graphic placeholder for Whimsy Heist"
+      }
+    },
+    {
+      "id": 11,
+      "publicId": 13,
+      "name": "Life Moments",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/IotSFB2k7CY/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/IotSFB2k7CY",
+        "videoId": "IotSFB2k7CY",
+        "alt": "Video thumbnail for Life Moments",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-red",
+          "monogram": "L",
+          "seed": "build-with-gemini-2026:11:Life Moments",
+          "alt": "Graphic placeholder for Life Moments"
+        }
+      }
+    },
+    {
+      "id": 48,
+      "publicId": 14,
+      "name": "RememberUs",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-red",
+        "monogram": "R",
+        "seed": "build-with-gemini-2026:48:RememberUs",
+        "alt": "Graphic placeholder for RememberUs"
+      }
+    },
+    {
+      "id": 44,
+      "publicId": 15,
+      "name": "Potluck",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-blue",
+        "monogram": "P",
+        "seed": "build-with-gemini-2026:44:Potluck",
+        "alt": "Graphic placeholder for Potluck"
+      }
+    },
+    {
+      "id": 56,
+      "publicId": 16,
+      "name": "StitchCheck",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/cw_cM3MXToU/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/cw_cM3MXToU",
+        "videoId": "cw_cM3MXToU",
+        "alt": "Video thumbnail for StitchCheck",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-yellow",
+          "monogram": "S",
+          "seed": "build-with-gemini-2026:56:StitchCheck",
+          "alt": "Graphic placeholder for StitchCheck"
+        }
+      }
+    },
+    {
+      "id": 23,
+      "publicId": 17,
+      "name": "Ah Ma Line",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-blue",
+        "monogram": "A",
+        "seed": "build-with-gemini-2026:23:Ah Ma Line",
+        "alt": "Graphic placeholder for Ah Ma Line"
+      }
+    },
+    {
+      "id": 41,
+      "publicId": 18,
+      "name": "CyberTriage",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-blue",
+        "monogram": "C",
+        "seed": "build-with-gemini-2026:41:CyberTriage",
+        "alt": "Graphic placeholder for CyberTriage"
+      }
+    },
+    {
+      "id": 37,
+      "publicId": 19,
+      "name": "Anchor",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/0rx0SixMkak/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/0rx0SixMkak",
+        "videoId": "0rx0SixMkak",
+        "alt": "Video thumbnail for Anchor",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "A",
+          "seed": "build-with-gemini-2026:37:Anchor",
+          "alt": "Graphic placeholder for Anchor"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "publicId": 20,
+      "name": "trade-gemma",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-green",
+        "monogram": "T",
+        "seed": "build-with-gemini-2026:7:trade-gemma",
+        "alt": "Graphic placeholder for trade-gemma"
+      }
+    },
+    {
+      "id": 42,
+      "publicId": 21,
+      "name": "Medication Reminder",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-green",
+        "monogram": "M",
+        "seed": "build-with-gemini-2026:42:Medication Reminder",
+        "alt": "Graphic placeholder for Medication Reminder"
+      }
+    },
+    {
+      "id": 19,
+      "publicId": 22,
+      "name": "KakiCompanion AI",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-yellow",
+        "monogram": "K",
+        "seed": "build-with-gemini-2026:19:KakiCompanion AI",
+        "alt": "Graphic placeholder for KakiCompanion AI"
+      }
+    },
+    {
+      "id": 9,
+      "publicId": 23,
+      "name": "swarm defence",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-green",
+        "monogram": "S",
+        "seed": "build-with-gemini-2026:9:swarm defence",
+        "alt": "Graphic placeholder for swarm defence"
+      }
+    },
+    {
+      "id": 61,
+      "publicId": 24,
+      "name": "Pushkar's Solo Team",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-red",
+        "monogram": "P",
+        "seed": "build-with-gemini-2026:61:Pushkar's Solo Team",
+        "alt": "Graphic placeholder for Pushkar's Solo Team"
+      }
+    },
+    {
+      "id": 20,
+      "publicId": 25,
+      "name": "Vision path II",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-green",
+        "monogram": "V",
+        "seed": "build-with-gemini-2026:20:Vision path II",
+        "alt": "Graphic placeholder for Vision path II"
+      }
+    },
+    {
+      "id": 15,
+      "publicId": 26,
+      "name": "Memory Bridge",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-yellow",
+        "monogram": "M",
+        "seed": "build-with-gemini-2026:15:Memory Bridge",
+        "alt": "Graphic placeholder for Memory Bridge"
+      }
+    },
+    {
+      "id": 40,
+      "publicId": 27,
+      "name": "PetPat Call",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-blue",
+        "monogram": "P",
+        "seed": "build-with-gemini-2026:40:PetPat Call",
+        "alt": "Graphic placeholder for PetPat Call"
+      }
+    },
+    {
+      "id": 53,
+      "publicId": 28,
+      "name": "BusPay",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/c16_3CIOQbE/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/c16_3CIOQbE",
+        "videoId": "c16_3CIOQbE",
+        "alt": "Video thumbnail for BusPay",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-blue",
+          "monogram": "B",
+          "seed": "build-with-gemini-2026:53:BusPay",
+          "alt": "Graphic placeholder for BusPay"
+        }
+      }
+    },
+    {
+      "id": 50,
+      "publicId": 29,
+      "name": "Parking My Thoughts",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-green",
+        "monogram": "P",
+        "seed": "build-with-gemini-2026:50:Parking My Thoughts",
+        "alt": "Graphic placeholder for Parking My Thoughts"
+      }
+    },
+    {
+      "id": 21,
+      "publicId": 30,
+      "name": "Tandem",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-yellow",
+        "monogram": "T",
+        "seed": "build-with-gemini-2026:21:Tandem",
+        "alt": "Graphic placeholder for Tandem"
+      }
+    },
+    {
+      "id": 30,
+      "publicId": 31,
+      "name": "Swarm Defence",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-green",
+        "monogram": "S",
+        "seed": "build-with-gemini-2026:30:Swarm Defence",
+        "alt": "Graphic placeholder for Swarm Defence"
+      }
+    },
+    {
+      "id": 8,
+      "publicId": 32,
+      "name": "Kai",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/N3_-AX6l_Cs/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/N3_-AX6l_Cs",
+        "videoId": "N3_-AX6l_Cs",
+        "alt": "Video thumbnail for Kai",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-red",
+          "monogram": "K",
+          "seed": "build-with-gemini-2026:8:Kai",
+          "alt": "Graphic placeholder for Kai"
+        }
+      }
+    },
+    {
+      "id": 25,
+      "publicId": 33,
+      "name": "smalltalk",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-blue",
+        "monogram": "S",
+        "seed": "build-with-gemini-2026:25:smalltalk",
+        "alt": "Graphic placeholder for smalltalk"
+      }
+    },
+    {
+      "id": 10,
+      "publicId": 34,
+      "name": "looplist",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/6O1hRZfvt5k/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/6O1hRZfvt5k",
+        "videoId": "6O1hRZfvt5k",
+        "alt": "Video thumbnail for looplist",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-red",
+          "monogram": "L",
+          "seed": "build-with-gemini-2026:10:looplist",
+          "alt": "Graphic placeholder for looplist"
+        }
+      }
+    },
+    {
+      "id": 31,
+      "publicId": 35,
+      "name": "Co-Presenter",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-green",
+        "monogram": "C",
+        "seed": "build-with-gemini-2026:31:Co-Presenter",
+        "alt": "Graphic placeholder for Co-Presenter"
+      }
+    },
+    {
+      "id": 24,
+      "publicId": 36,
+      "name": "GUESSLIGHT",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/mwiFwBRrhXo/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/mwiFwBRrhXo",
+        "videoId": "mwiFwBRrhXo",
+        "alt": "Video thumbnail for GUESSLIGHT",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "G",
+          "seed": "build-with-gemini-2026:24:GUESSLIGHT",
+          "alt": "Graphic placeholder for GUESSLIGHT"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "publicId": 37,
+      "name": "Sunday",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-red",
+        "monogram": "S",
+        "seed": "build-with-gemini-2026:12:Sunday",
+        "alt": "Graphic placeholder for Sunday"
+      }
+    },
+    {
+      "id": 33,
+      "publicId": 38,
+      "name": "Team MUSE",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/I0-GH1-ecH4/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/I0-GH1-ecH4",
+        "videoId": "I0-GH1-ecH4",
+        "alt": "Video thumbnail for Team MUSE",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "T",
+          "seed": "build-with-gemini-2026:33:Team MUSE",
+          "alt": "Graphic placeholder for Team MUSE"
+        }
+      }
+    },
+    {
+      "id": 54,
+      "publicId": 39,
+      "name": "SilverVoice",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-yellow",
+        "monogram": "S",
+        "seed": "build-with-gemini-2026:54:SilverVoice",
+        "alt": "Graphic placeholder for SilverVoice"
+      }
+    },
+    {
+      "id": 51,
+      "publicId": 40,
+      "name": "WN",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/p-0w7GhHzFo/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/p-0w7GhHzFo",
+        "videoId": "p-0w7GhHzFo",
+        "alt": "Video thumbnail for WN",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-red",
+          "monogram": "W",
+          "seed": "build-with-gemini-2026:51:WN",
+          "alt": "Graphic placeholder for WN"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "publicId": 41,
+      "name": "Yuban",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/3yEqXEgvy5Y/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/3yEqXEgvy5Y",
+        "videoId": "3yEqXEgvy5Y",
+        "alt": "Video thumbnail for Yuban",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-blue",
+          "monogram": "Y",
+          "seed": "build-with-gemini-2026:14:Yuban",
+          "alt": "Graphic placeholder for Yuban"
+        }
+      }
+    },
+    {
+      "id": 45,
+      "publicId": 42,
+      "name": "The Silver Foxes",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-yellow",
+        "monogram": "T",
+        "seed": "build-with-gemini-2026:45:The Silver Foxes",
+        "alt": "Graphic placeholder for The Silver Foxes"
+      }
+    },
+    {
+      "id": 38,
+      "publicId": 43,
+      "name": "Diffusion Enjoyers",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-green",
+        "monogram": "D",
+        "seed": "build-with-gemini-2026:38:Diffusion Enjoyers",
+        "alt": "Graphic placeholder for Diffusion Enjoyers"
+      }
+    },
+    {
+      "id": 60,
+      "publicId": 44,
+      "name": "Muning",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-blue",
+        "monogram": "M",
+        "seed": "build-with-gemini-2026:60:Muning",
+        "alt": "Graphic placeholder for Muning"
+      }
+    },
+    {
+      "id": 26,
+      "publicId": 45,
+      "name": "Origin Silver",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-red",
+        "monogram": "O",
+        "seed": "build-with-gemini-2026:26:Origin Silver",
+        "alt": "Graphic placeholder for Origin Silver"
+      }
+    },
+    {
+      "id": 47,
+      "publicId": 46,
+      "name": "BookWorm",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/0wHAMkd0BGk/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/0wHAMkd0BGk",
+        "videoId": "0wHAMkd0BGk",
+        "alt": "Video thumbnail for BookWorm",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "B",
+          "seed": "build-with-gemini-2026:47:BookWorm",
+          "alt": "Graphic placeholder for BookWorm"
+        }
+      }
+    },
+    {
+      "id": 34,
+      "publicId": 47,
+      "name": "Xin",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/-8fKWYid8mE/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/-8fKWYid8mE",
+        "videoId": "-8fKWYid8mE",
+        "alt": "Video thumbnail for Xin",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-blue",
+          "monogram": "X",
+          "seed": "build-with-gemini-2026:34:Xin",
+          "alt": "Graphic placeholder for Xin"
+        }
+      }
+    },
+    {
+      "id": 58,
+      "publicId": 48,
+      "name": "VisionPath",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-blue",
+        "monogram": "V",
+        "seed": "build-with-gemini-2026:58:VisionPath",
+        "alt": "Graphic placeholder for VisionPath"
+      }
+    },
+    {
+      "id": 28,
+      "publicId": 49,
+      "name": "Agrim Tycoon",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/x25d2_Ezd30/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/x25d2_Ezd30",
+        "videoId": "x25d2_Ezd30",
+        "alt": "Video thumbnail for Agrim Tycoon",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-blue",
+          "monogram": "A",
+          "seed": "build-with-gemini-2026:28:Agrim Tycoon",
+          "alt": "Graphic placeholder for Agrim Tycoon"
+        }
+      }
+    },
+    {
+      "id": 49,
+      "publicId": 50,
+      "name": "Agri",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-yellow",
+        "monogram": "A",
+        "seed": "build-with-gemini-2026:49:Agri",
+        "alt": "Graphic placeholder for Agri"
+      }
+    },
+    {
+      "id": 36,
+      "publicId": 51,
+      "name": "Porchlight",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-red",
+        "monogram": "P",
+        "seed": "build-with-gemini-2026:36:Porchlight",
+        "alt": "Graphic placeholder for Porchlight"
+      }
+    },
+    {
+      "id": 32,
+      "publicId": 52,
+      "name": "Anchor",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-blue",
+        "monogram": "A",
+        "seed": "build-with-gemini-2026:32:Anchor",
+        "alt": "Graphic placeholder for Anchor"
+      }
+    },
+    {
+      "id": 43,
+      "publicId": 53,
+      "name": "87K Windows",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-blue",
+        "monogram": "8",
+        "seed": "build-with-gemini-2026:43:87K Windows",
+        "alt": "Graphic placeholder for 87K Windows"
+      }
+    },
+    {
+      "id": 57,
+      "publicId": 54,
+      "name": "Family Daily",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-red",
+        "monogram": "F",
+        "seed": "build-with-gemini-2026:57:Family Daily",
+        "alt": "Graphic placeholder for Family Daily"
+      }
+    },
+    {
+      "id": 29,
+      "publicId": 55,
+      "name": "Aldex",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/FAlLKinXCZY/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/FAlLKinXCZY",
+        "videoId": "FAlLKinXCZY",
+        "alt": "Video thumbnail for Aldex",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-red",
+          "monogram": "A",
+          "seed": "build-with-gemini-2026:29:Aldex",
+          "alt": "Graphic placeholder for Aldex"
+        }
+      }
+    },
+    {
+      "id": 22,
+      "publicId": 56,
+      "name": "Catch&Deco",
+      "visual": {
+        "kind": "youtube_thumbnail",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Bu70g4V9CpQ/hqdefault.jpg",
+        "sourceUrl": "https://youtu.be/Bu70g4V9CpQ",
+        "videoId": "Bu70g4V9CpQ",
+        "alt": "Video thumbnail for Catch&Deco",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-yellow",
+          "monogram": "C",
+          "seed": "build-with-gemini-2026:22:Catch&Deco",
+          "alt": "Graphic placeholder for Catch&Deco"
+        }
+      }
+    },
+    {
+      "id": 39,
+      "publicId": 57,
+      "name": "KakiCompanion AI",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-blue",
+        "monogram": "K",
+        "seed": "build-with-gemini-2026:39:KakiCompanion AI",
+        "alt": "Graphic placeholder for KakiCompanion AI"
+      }
+    },
+    {
+      "id": 27,
+      "publicId": 58,
+      "name": "Retro TV",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-red",
+        "monogram": "R",
+        "seed": "build-with-gemini-2026:27:Retro TV",
+        "alt": "Graphic placeholder for Retro TV"
+      }
+    },
+    {
+      "id": 35,
+      "publicId": 59,
+      "name": "KopiKakis",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-yellow",
+        "monogram": "K",
+        "seed": "build-with-gemini-2026:35:KopiKakis",
+        "alt": "Graphic placeholder for KopiKakis"
+      }
+    },
+    {
+      "id": 52,
+      "publicId": 60,
+      "name": "Memento",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-blue",
+        "monogram": "M",
+        "seed": "build-with-gemini-2026:52:Memento",
+        "alt": "Graphic placeholder for Memento"
+      }
+    },
+    {
+      "id": 18,
+      "publicId": 61,
+      "name": "Treasures Bowl",
+      "visual": {
+        "kind": "generated_fallback",
+        "palette": "gemini-red",
+        "monogram": "T",
+        "seed": "build-with-gemini-2026:18:Treasures Bowl",
+        "alt": "Graphic placeholder for Treasures Bowl"
+      }
+    }
+  ]
+}
