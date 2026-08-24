@@ -1,10 +1,6 @@
 import type { Metadata } from "next";
-import { Bricolage_Grotesque, Noto_Sans, Roboto_Mono } from "next/font/google";
+import "@fontsource-variable/google-sans-flex";
 import "./globals.css";
-
-const display = Bricolage_Grotesque({ variable: "--font-display", subsets: ["latin"] });
-const body = Noto_Sans({ variable: "--font-body", subsets: ["latin"] });
-const mono = Roboto_Mono({ variable: "--font-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(
@@ -28,13 +24,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${display.variable} ${body.variable} ${mono.variable}`}>
+      <body>
         <template dangerouslySetInnerHTML={{ __html: `<!--
-THESIS: A builder field journal turns one intense day into a permanent, searchable public record; it refuses the generic event hero plus card grid.
-OWN-WORLD: Cool security-paper fields, deep ink, Gemini primaries, stamped award marks, ruled indexes, and crisp editorial photography slots.
-STORY: Visitors grasp the day's scale, celebrate four winners, then explore all 61 builds through a filtered public index.
-FIRST VIEWPORT: A monumental 61-build statement occupies the left while an orbital field index occupies the right; the gallery action sits beneath the thesis.
-FORM: Builder field journal, grounded candidate six, seed bfcbf1f1.
+THESIS: The event deck becomes a durable public build record: stage-dark, spacious, and precise enough to browse sixty-one projects without losing the energy of the room.
+OWN-WORLD: Near-black fields, Google Sans Flex, thin graphite rules, one clear Gemini-blue signal, and restrained red, yellow, and green track accents.
+STORY: Visitors enter through the event's scale, understand the three tracks, see the winning builds and Saturday photographs, then explore a privacy-preserving shuffled build index.
+FIRST VIEWPORT: A quiet Gemini lockup, monumental event statement, and ruled event facts recreate the confidence and proportions of the briefing deck.
+FORM: Dark Google event record, pinned by the supplied slide-six system.
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
 -->` }} />
         {children}

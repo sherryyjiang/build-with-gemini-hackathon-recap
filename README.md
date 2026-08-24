@@ -1,6 +1,6 @@
 # Build with Gemini Hackathon 2026 Recap
 
-A public recap of the August 22, 2026 Build with Gemini Hackathon in Singapore. The site highlights the four winning projects and provides a searchable index of all 61 active submissions.
+A public recap of the August 22, 2026 Build with Gemini Hackathon in Singapore. The site highlights the three track winners and Sentry recognition, then provides a searchable, privacy-preserving index of all 61 active submissions.
 
 ## Local development
 
@@ -17,6 +17,6 @@ The checked-in public dataset intentionally excludes contact email addresses. To
 python3 scripts/prepare-submissions.py
 ```
 
-## Adding event photos
+## Event photos
 
-The four placeholders are in `app/page.tsx` under `photo-grid`. Add optimized images to `public/photos/`, then replace each placeholder body with `next/image` while keeping the existing figure and caption classes.
+Four photographs from the official Saturday album are optimized in `public/photos/` and rendered from the `photo-grid` in `app/page.tsx`. They can be swapped there while preserving the existing figure, caption, and image treatment.

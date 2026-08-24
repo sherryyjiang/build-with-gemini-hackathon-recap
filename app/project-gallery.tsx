@@ -4,21 +4,62 @@ import { useMemo, useState } from "react";
 
 export type Submission = {
   id: number;
+  publicId: number;
+  isFinalist: boolean;
   name: string;
   members: string[];
   summary: string;
   tracks: string[];
   projectLinks: string[];
   videoLinks: string[];
+  projectLinkAudit: LinkAudit;
+  videoLinkAudit: LinkAudit;
+};
+
+type LinkAudit = {
+  status: "complete" | "needs_update" | "missing";
+  reason: string;
 };
 
 const filters = ["All", "Best Use of Gemma", "Best Elderly Hack", "Most Creative Gemini Hack"];
+
+const reasonLabels: Record<string, string> = {
+  not_found: "Broken link",
+  server_error: "Server error",
+  auth_redirect: "Sign-in required",
+  edit_link: "Edit link",
+  cookie_gate: "Check public access",
+  generic_target: "Generic destination",
+  wrong_content_type: "Not a demo",
+  shortener_blocked: "Short link blocked",
+  not_submitted: "Not submitted",
+};
 
 function ExternalArrow() {
   return (
     <svg viewBox="0 0 18 18" aria-hidden="true">
       <path d="M6 12 12.5 5.5M7.5 5.5h5v5M12 10.5V13H5V6h2.5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
+  );
+}
+
+function LinkGroup({ label, links, audit }: { label: string; links: string[]; audit: LinkAudit }) {
+  const needsUpdate = audit.status !== "complete";
+  return (
+    <div className={`link-group ${needsUpdate ? "link-group-warning" : ""}`}>
+      <div className="link-heading">
+        <span>{label}</span>
+        <small>{needsUpdate ? "Needs update" : "Available"}</small>
+        {needsUpdate ? <em>{reasonLabels[audit.reason] ?? "Check access"}</em> : null}
+      </div>
+      <div className="link-actions">
+        {links.length ? links.map((link, index) => (
+          <a href={link} target="_blank" rel="noreferrer" key={`${label}-${link}`}>
+            {index === 0 ? "Open" : `Open ${index + 1}`} <ExternalArrow /><span className="sr-only"> (opens in new tab)</span>
+          </a>
+        )) : <span className="no-link">Not submitted</span>}
+      </div>
+    </div>
   );
 }
 
@@ -55,9 +96,12 @@ export function ProjectGallery({ submissions }: { submissions: Submission[] }) {
         <div className="project-index">
           {visible.map((submission) => (
             <article className="project-entry" key={submission.id}>
-              <span className="project-number">{String(submission.id).padStart(2, "0")}</span>
+              <span className="project-number">{String(submission.publicId).padStart(2, "0")}</span>
               <div className="project-main">
-                <h3>{submission.name}</h3>
+                <div className="project-title-row">
+                  <h3>{submission.name}</h3>
+                  {submission.isFinalist && <span className="finalist-label">Finalist</span>}
+                </div>
                 {submission.members.length > 0 && <p className="members">with {submission.members.join(", ")}</p>}
                 <p className="project-summary">{submission.summary || "Project details were not included in the public submission."}</p>
                 <div className="track-list">
@@ -65,16 +109,8 @@ export function ProjectGallery({ submissions }: { submissions: Submission[] }) {
                 </div>
               </div>
               <div className="project-links">
-                {submission.projectLinks.map((link, index) => (
-                  <a href={link} target="_blank" rel="noreferrer" key={`project-${link}`}>
-                    {index === 0 ? "Project" : `Project ${index + 1}`} <ExternalArrow /><span className="sr-only"> (opens in new tab)</span>
-                  </a>
-                ))}
-                {submission.videoLinks.map((link, index) => (
-                  <a href={link} target="_blank" rel="noreferrer" key={`video-${link}`}>
-                    {index === 0 ? "Demo" : `Demo ${index + 1}`} <ExternalArrow /><span className="sr-only"> (opens in new tab)</span>
-                  </a>
-                ))}
+                <LinkGroup label="Project" links={submission.projectLinks} audit={submission.projectLinkAudit} />
+                <LinkGroup label="Demo" links={submission.videoLinks} audit={submission.videoLinkAudit} />
               </div>
             </article>
           ))}

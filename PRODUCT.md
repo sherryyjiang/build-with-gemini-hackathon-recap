@@ -20,7 +20,7 @@ The recap is not a generic event summary: it is a browsable public record ground
 
 ## Operating Context
 
-The site is shared after the event through a public GitHub repository and a production Vercel URL. Organizers will add event photography after launch, so image regions must remain intentional and easy to replace without redesigning the page.
+The site is shared after the event through a public GitHub repository and a production Vercel URL. A curated set from the official event album establishes the photographic treatment and can be replaced without redesigning the page.
 
 ## Capabilities and Constraints
 
@@ -29,7 +29,7 @@ The site is shared after the event through a public GitHub repository and a prod
 - Show all active submissions from the supplied CSV while excluding contact email addresses.
 - Highlight the four confirmed awards: Gemma Companion, Project Rehab, OrcAIPlay, and Sentry.
 - Include working filtering/search and public project/demo links where supplied.
-- Preserve explicit photo placeholders for later replacement.
+- Present a curated set of official event photography with descriptive alternative text.
 - Do not fabricate attendance figures, testimonials, or event photography.
 
 ## Brand Commitments
@@ -46,14 +46,14 @@ The site is shared after the event through a public GitHub repository and a prod
 - Public participant guide: `https://65labs-gemini-hack.notion.site/`.
 - Prior recap reference: `https://grabmaps-hackathon-recap.vercel.app/`.
 - Confirmed winners in the event deck: Best Use of Gemma — Gemma Companion; Best Elderly Hack — Project Rehab; Most Creative Gemini Hack — OrcAIPlay; Honorable Mention — Sentry.
-- Event photographs are not yet available and must remain labeled placeholders.
+- Official Saturday event photographs are available from the 65labs photo album.
 
 ## Product Principles
 
 - Celebrate specific things teams built, not generic innovation language.
 - Keep every published claim traceable to the CSV, deck, or guide.
 - Put winners first while preserving the full field of submissions.
-- Treat photo placeholders as composed editorial space, not broken-image boxes.
+- Treat event photography as composed editorial space with clear captions and credits.
 - Keep personal contact details out of the public artifact.
 
 ## Accessibility & Inclusion

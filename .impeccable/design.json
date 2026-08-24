@@ -1,144 +1,28 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-24T00:00:00+08:00",
-  "title": "Design System: Build with Gemini Hackathon 2026 Recap",
-  "extensions": {
-    "colorMeta": {
-      "field-ink": {
-        "role": "neutral",
-        "displayName": "Field Ink",
-        "canonical": "#131127",
-        "tonalRamp": ["oklch(15% 0.035 290)", "oklch(26% 0.035 290)", "oklch(37% 0.035 290)", "oklch(48% 0.035 290)", "oklch(59% 0.035 290)", "oklch(70% 0.035 290)", "oklch(81% 0.035 290)", "oklch(92% 0.035 290)"]
-      },
-      "survey-paper": {
-        "role": "neutral",
-        "displayName": "Survey Paper",
-        "canonical": "#f1f3ff",
-        "tonalRamp": ["oklch(15% 0.015 280)", "oklch(26% 0.015 280)", "oklch(37% 0.015 280)", "oklch(48% 0.015 280)", "oklch(59% 0.015 280)", "oklch(70% 0.015 280)", "oklch(81% 0.015 280)", "oklch(95% 0.015 280)"]
-      },
-      "blueprint-wash": {
-        "role": "neutral",
-        "displayName": "Blueprint Wash",
-        "canonical": "#dfe5ff",
-        "tonalRamp": ["oklch(15% 0.04 270)", "oklch(26% 0.04 270)", "oklch(37% 0.04 270)", "oklch(48% 0.04 270)", "oklch(59% 0.04 270)", "oklch(70% 0.04 270)", "oklch(81% 0.04 270)", "oklch(93% 0.04 270)"]
-      },
-      "white": {
-        "role": "neutral",
-        "displayName": "Archive White",
-        "canonical": "#ffffff",
-        "tonalRamp": ["oklch(15% 0 0)", "oklch(26% 0 0)", "oklch(37% 0 0)", "oklch(48% 0 0)", "oklch(59% 0 0)", "oklch(70% 0 0)", "oklch(81% 0 0)", "oklch(100% 0 0)"]
-      },
-      "gemini-blue": {
-        "role": "primary",
-        "displayName": "Gemini Blue",
-        "canonical": "#4285f4",
-        "tonalRamp": ["oklch(15% 0.17 260)", "oklch(26% 0.17 260)", "oklch(37% 0.17 260)", "oklch(48% 0.17 260)", "oklch(59% 0.17 260)", "oklch(70% 0.17 260)", "oklch(81% 0.17 260)", "oklch(92% 0.17 260)"]
-      },
-      "gemini-red": {
-        "role": "secondary",
-        "displayName": "Gemini Red",
-        "canonical": "#ea4335",
-        "tonalRamp": ["oklch(15% 0.19 30)", "oklch(26% 0.19 30)", "oklch(37% 0.19 30)", "oklch(48% 0.19 30)", "oklch(59% 0.19 30)", "oklch(70% 0.19 30)", "oklch(81% 0.19 30)", "oklch(92% 0.19 30)"]
-      },
-      "gemini-yellow": {
-        "role": "tertiary",
-        "displayName": "Gemini Yellow",
-        "canonical": "#fbbc04",
-        "tonalRamp": ["oklch(15% 0.15 85)", "oklch(26% 0.15 85)", "oklch(37% 0.15 85)", "oklch(48% 0.15 85)", "oklch(59% 0.15 85)", "oklch(70% 0.15 85)", "oklch(81% 0.15 85)", "oklch(92% 0.15 85)"]
-      },
-      "gemini-green": {
-        "role": "tertiary",
-        "displayName": "Gemini Green",
-        "canonical": "#34a853",
-        "tonalRamp": ["oklch(15% 0.14 145)", "oklch(26% 0.14 145)", "oklch(37% 0.14 145)", "oklch(48% 0.14 145)", "oklch(59% 0.14 145)", "oklch(70% 0.14 145)", "oklch(81% 0.14 145)", "oklch(92% 0.14 145)"]
-      }
-    },
-    "typographyMeta": {
-      "display": { "displayName": "Monumental Field Display", "purpose": "Hero thesis only." },
-      "headline": { "displayName": "Editorial Section Headline", "purpose": "Major page sections and recap statements." },
-      "title": { "displayName": "Build Record Title", "purpose": "Winner and project names." },
-      "body": { "displayName": "Readable Field Notes", "purpose": "Descriptions and public project summaries." },
-      "label": { "displayName": "Index Annotation", "purpose": "Dates, counts, tracks, filters, facts, and awards." }
-    },
-    "shadows": [
-      { "name": "control-float", "value": "0 12px 34px rgba(46,50,91,.12)", "purpose": "Sticky gallery controls only." },
-      { "name": "index-note-lift", "value": "0 16px 32px rgba(10,9,28,.24)", "purpose": "Hero index annotations only." },
-      { "name": "spark-atmosphere", "value": "drop-shadow(0 18px 30px rgba(13,19,53,.44))", "purpose": "Hero spark only." }
-    ],
-    "motion": [
-      { "name": "action-rise", "value": "transform .18s ease-out, background .18s ease-out", "purpose": "Primary-link hover." },
-      { "name": "winner-wash", "value": "opacity .22s ease-out", "purpose": "Winner-row hover wash." },
-      { "name": "orbit-revolve", "value": "26s linear infinite", "purpose": "Primary hero orbit; reduced-motion disables continuous animation." },
-      { "name": "spark-breathe", "value": "4.5s ease-in-out infinite", "purpose": "Hero spark pulse; reduced-motion disables continuous animation." }
-    ],
-    "breakpoints": [
-      { "name": "compact-desktop", "value": "1040px" },
-      { "name": "mobile", "value": "760px" },
-      { "name": "narrow", "value": "480px" }
-    ]
+  "generatedAt": "2026-08-24T14:55:00+08:00",
+  "title": "Design System: The Google Gemini Build Record",
+  "creativeNorthStar": "The supplied event deck opened into a durable public archive.",
+  "fontFamily": "Google Sans Flex Variable, Google Sans, Arial, Helvetica, sans-serif",
+  "colors": {
+    "canvas": "#050506",
+    "paper": "#0B0B0C",
+    "ink": "#F8F9FA",
+    "muted": "#BDC1C6",
+    "divider": "#3C4043",
+    "blue": "#4285F4",
+    "red": "#EA4335",
+    "yellow": "#FBBC04",
+    "green": "#34A853",
+    "blueSoft": "#A8C7FA",
+    "redSoft": "#F2AAA4",
+    "greenSoft": "#71D18A"
   },
-  "components": [
-    {
-      "name": "Primary Field Link",
-      "kind": "button",
-      "refersTo": "primary-link",
-      "description": "The hero action that carries visitors from the event thesis into the build index.",
-      "html": "<a class=\"ds-primary-link\" href=\"#\">Explore every build <span aria-hidden=\"true\">→</span></a>",
-      "css": ".ds-primary-link { display: inline-flex; align-items: center; gap: 18px; min-height: 48px; padding: 12px 16px 12px 20px; border: 1px solid rgba(255,255,255,.6); background: #ffffff; color: #131127; font-family: Arial, sans-serif; font-size: 14px; font-weight: 800; text-decoration: none; transition: transform .18s ease-out, background .18s ease-out; } .ds-primary-link:hover { transform: translateY(-2px); background: #dce7ff; } .ds-primary-link:focus-visible { outline: 3px solid #4285f4; outline-offset: 4px; }"
-    },
-    {
-      "name": "Search Field",
-      "kind": "input",
-      "refersTo": "search-field",
-      "description": "A square, practical survey field for searching the public project record.",
-      "html": "<label class=\"ds-search-field\"><span class=\"ds-search-icon\" aria-hidden=\"true\">⌕</span><input placeholder=\"Search a team, idea, or technology\" /></label>",
-      "css": ".ds-search-field { display: flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 15px; background: #f1f3ff; border: 1px solid transparent; font-family: Arial, sans-serif; } .ds-search-field:focus-within { border-color: #4285f4; } .ds-search-icon { color: #505977; font-size: 22px; line-height: 1; } .ds-search-field input { width: 100%; border: 0; outline: 0; background: transparent; color: #131127; font: 14px Arial, sans-serif; } .ds-search-field input::placeholder { color: #676b82; } .ds-search-field input:focus-visible { outline: 3px solid #4285f4; outline-offset: 4px; }"
-    },
-    {
-      "name": "Track Filter Chip",
-      "kind": "chip",
-      "refersTo": "filter-chip",
-      "description": "The system's only pill-shaped control, used to select a prize-track filter.",
-      "html": "<button class=\"ds-filter-chip\" type=\"button\">Best Use of Gemma</button>",
-      "css": ".ds-filter-chip { min-height: 42px; padding: 9px 13px; border: 1px solid #b9bfd6; border-radius: 999px; background: transparent; color: #32334a; font: 750 11px Arial, sans-serif; cursor: pointer; } .ds-filter-chip:hover { border-color: #131127; } .ds-filter-chip:focus-visible { outline: 3px solid #4285f4; outline-offset: 4px; } .ds-filter-chip[aria-pressed=\"true\"] { border-color: #131127; background: #131127; color: #ffffff; }"
-    },
-    {
-      "name": "Project Record Row",
-      "kind": "card",
-      "refersTo": "project-index",
-      "description": "A numbered, ruled project record with narrative and outbound actions instead of a floating card.",
-      "html": "<article class=\"ds-project-row\"><span class=\"ds-project-number\">07</span><div><h3>Field Notes</h3><p class=\"ds-members\">with A. Builder, B. Maker</p><p class=\"ds-summary\">A concise public description of what the team built during the hackathon.</p><span class=\"ds-track\">Best Use of Gemma</span></div><a class=\"ds-project-link\" href=\"#\">Project ↗</a></article>",
-      "css": ".ds-project-row { display: grid; grid-template-columns: 66px minmax(0,1fr) 180px; gap: 28px; padding: 34px 0 36px; border-bottom: 1px solid rgba(19,17,39,.2); background: #f1f3ff; color: #131127; font-family: Arial, sans-serif; } .ds-project-number { padding-top: 8px; color: #6a6e87; font: 12px monospace; } .ds-project-row h3 { margin: 0; font: 660 clamp(27px,3vw,42px)/1 Arial, sans-serif; letter-spacing: -.025em; } .ds-members { margin: 8px 0 0; color: #64677d; font-size: 12px; } .ds-summary { max-width: 780px; margin: 19px 0; color: #3f4055; font-size: 14px; line-height: 1.65; } .ds-track { display: inline-block; padding: 6px 9px; background: #dce4ff; color: #293d78; font: 650 9px monospace; } .ds-project-link { align-self: start; justify-self: end; display: inline-flex; min-height: 40px; padding: 9px 11px; border: 1px solid #aeb5cd; color: #131127; font: 750 11px Arial, sans-serif; text-decoration: none; } .ds-project-link:hover { border-color: #131127; background: #ffffff; } .ds-project-link:focus-visible { outline: 3px solid #4285f4; outline-offset: 4px; }"
-    },
-    {
-      "name": "Award Stamp",
-      "kind": "custom",
-      "refersTo": "award-stamp",
-      "description": "A small certification mark for a winner, colored by its assigned Gemini signal.",
-      "html": "<span class=\"ds-award-stamp\"><span aria-hidden=\"true\">✦</span> Awarded</span>",
-      "css": ".ds-award-stamp { display: inline-flex; align-items: center; gap: 8px; padding: 10px 12px; border: 1px solid #4285f4; color: #4285f4; font: 700 9px monospace; letter-spacing: .08em; text-transform: uppercase; transform: rotate(-3deg); }"
-    },
-    {
-      "name": "Photo Ledger Slot",
-      "kind": "custom",
-      "refersTo": "photo-slot",
-      "description": "A composed documentary placeholder that remains intentional until event photography arrives.",
-      "html": "<figure class=\"ds-photo-slot\"><span class=\"ds-photo-label\">PHOTO PLACEHOLDER</span><span class=\"ds-photo-cross\" aria-hidden=\"true\"></span><figcaption><span>Photo 01</span> Opening the room</figcaption></figure>",
-      "css": ".ds-photo-slot { position: relative; min-height: 220px; margin: 0; overflow: hidden; border: 1px dashed #8293c4; background: #dce4ff; color: #131127; font-family: Arial, sans-serif; } .ds-photo-label { position: absolute; z-index: 2; top: 20px; left: 20px; font: 9px monospace; letter-spacing: .08em; } .ds-photo-cross { position: absolute; inset: 0; opacity: .45; background: linear-gradient(to top right,transparent calc(50% - .5px),#8793b8 50%,transparent calc(50% + .5px)),linear-gradient(to bottom right,transparent calc(50% - .5px),#8793b8 50%,transparent calc(50% + .5px)); } .ds-photo-slot figcaption { position: absolute; z-index: 2; right: 20px; bottom: 20px; left: 20px; display: flex; justify-content: space-between; gap: 16px; font: 700 20px Arial, sans-serif; } .ds-photo-slot figcaption span { font: 600 10px monospace; }"
-    }
-  ],
-  "narrative": {
-    "northStar": "The Builder Field Journal",
-    "overview": "This is a public field record for a day of making, not a generic event landing page. Deep ink, cool survey paper, ruled indexes, orbital coordinates, stamped awards, and deliberately composed photo slots make the recap feel collected in the field and filed for later discovery. The visual language holds both the intensity of a build day and the sober usefulness of an archive.\n\nThe system is editorial and dense without becoming precious. Monumental Bricolage Grotesque headlines establish the event's scale; Noto Sans keeps descriptions readable; Roboto Mono turns dates, counts, tracks, and controls into instrument markings. Gemini's primary colors appear as scarce navigational signals, award identifiers, and track accents rather than an all-over rainbow.",
-    "keyCharacteristics": ["Deep-ink editorial panels set against cool, lightly blue paper.", "Ruled records, numbers, coordinates, and labels make discovery feel indexed.", "Gemini primaries identify meaningful states and award tracks.", "Crisp rectangular containers are the default; the filter chip is the intentional exception.", "Photography placeholders are designed ledger entries, never empty image boxes."],
-    "rules": [
-      { "name": "The Four-Signal Rule", "body": "Blue, red, yellow, and green identify four distinct awards or tracks; do not collapse them into decoration or introduce competing saturated accents.", "section": "colors" },
-      { "name": "The Ink-First Rule", "body": "Let Field Ink and Survey Paper carry the page's visual weight. Saturation is a locator, not a background strategy.", "section": "colors" },
-      { "name": "The Index Voice Rule", "body": "Counts, times, coordinates, filters, tracks, and award annotations use the mono voice so the display face stays reserved for human-readable statements and names.", "section": "typography" },
-      { "name": "The Ruled-Record Rule", "body": "Project entries, facts, and winners are organized by top and bottom rules, not detached card grids. Keep the scan line visible across the record.", "section": "layout" },
-      { "name": "The Flat Record Rule", "body": "Do not put generic shadows beneath project entries, photos, or winner rows. A rule and a tonal field are the default separators.", "section": "elevation" }
-    ],
-    "dos": ["Do lead hero and section moments with the display face, then return to Noto Sans for explanatory copy.", "Do use mono for field metadata, including numbers, date lines, project tracks, result counts, and award labels.", "Do preserve the square, ruled entry system for lists and records.", "Do use the Gemini color set to differentiate confirmed track or winner states.", "Do treat photo replacements as content inserted into the established ledger composition."],
-    "donts": ["Don't replace the project index with a generic rounded card grid.", "Don't use Gemini primaries as broad decorative background fills outside their established signal roles.", "Don't add soft rounded corners to ordinary actions, entries, fields, or photo frames; only category filters are pill-shaped.", "Don't turn the image placeholders into blank boxes or remove their field labels before photography is ready.", "Don't add shadows to every container; the record stays flat unless a control or hero marker needs to float."]
-  }
+  "rules": [
+    "Stage-dark surfaces and thin rules carry the layout.",
+    "Blue is the principal signal; red, yellow, and green identify real tracks or awards.",
+    "Use flat editorial rows rather than rounded cards.",
+    "Keep finalists first and use stable shuffled numbering for all remaining builds.",
+    "Show project and demo link health independently."
+  ]
 }

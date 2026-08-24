@@ -16,7 +16,17 @@
     ],
     "videoLinks": [
       "https://youtu.be/kQETbhTSTjQ"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 1,
+    "isFinalist": true
   },
   {
     "id": 2,
@@ -34,7 +44,17 @@
     ],
     "videoLinks": [
       "https://youtu.be/d9vIyrbXu2Y?si=fB3n2A3UZRLZz5iJ"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 2,
+    "isFinalist": true
   },
   {
     "id": 3,
@@ -50,7 +70,17 @@
     ],
     "videoLinks": [
       "https://drive.google.com/drive/folders/1TMD3K7Yz0mwzSmqJDkY-bw7tOikiXCK_?usp=sharing"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 3,
+    "isFinalist": true
   },
   {
     "id": 4,
@@ -66,7 +96,17 @@
     ],
     "videoLinks": [
       "https://images.rachit.ai/gemini-hackathon-2026.mp4"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 4,
+    "isFinalist": true
   },
   {
     "id": 5,
@@ -81,7 +121,17 @@
     ],
     "videoLinks": [
       "https://www.youtube.com/watch?v=XPuSCc3LHPw"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 5,
+    "isFinalist": true
   },
   {
     "id": 6,
@@ -96,107 +146,17 @@
     ],
     "videoLinks": [
       "https://youtube.com/shorts/6OVWTR_LxEU"
-    ]
-  },
-  {
-    "id": 7,
-    "name": "trade-gemma",
-    "members": [],
-    "summary": "Trade-Gemma — an on-device Gemma copilot that makes real trade entries live, backed by a harness that proves the decisions are reasoned, not lucky. Built for anyone who wants to trust an AI trading decision without taking it on faith. Most \"AI trading bot\" projects grade themselves on paper P&L — over a few hours that's close to a coin flip regardless of reasoning quality. We built the opposite: a synthetic…",
-    "tracks": [
-      "Best Use of Gemma"
     ],
-    "projectLinks": [
-      "https://github.com/sudarshan2401/trade-gemma"
-    ],
-    "videoLinks": [
-      "https://drive.google.com/file/d/1gorr2R974zWb_iDKEPiaBVtA0oMhWuTg/view?usp=drive_link"
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Kai",
-    "members": [],
-    "summary": "Digital exclusion among the elderly isn't a hardware problem anymore, it's an interface literacy problem. Every app, form, and website uses different jargon and layouts, and there's no patient, judgment-free way to ask \"what does this mean\" without interrupting someone else's day. ScreenGuide is a floating desktop assistant with running todo lists and blockers, Runs on a local, free open-weight model (Gemma 4 via…",
-    "tracks": [
-      "Best Use of Gemma",
-      "Best Elderly Hack"
-    ],
-    "projectLinks": [
-      "https://github.com/vlyot/ScreenAssist/"
-    ],
-    "videoLinks": [
-      "https://youtu.be/N3_-AX6l_Cs"
-    ]
-  },
-  {
-    "id": 9,
-    "name": "swarm defence",
-    "members": [
-      "junhong"
-    ],
-    "summary": "interactive AI-driven cybersecurity range where operators take part in Red Team attacks and Blue Team across real-world scenarios with step-by-step MITRE/OWASP debriefs and live graphical analytics",
-    "tracks": [
-      "Most Creative Gemini Hack"
-    ],
-    "projectLinks": [
-      "https://github.com/tjh87/swarm-defence"
-    ],
-    "videoLinks": [
-      "https://streamable.com/0u29gv"
-    ]
-  },
-  {
-    "id": 10,
-    "name": "looplist",
-    "members": [],
-    "summary": "LoopList is a zero-friction resale marketplace where Gemini turns photos into verified listings, Gemma finds the right buyers, and x402 handles instant on-chain checkout. Think of it as Carousell with agentic payments and sellers",
-    "tracks": [
-      "Best Use of Gemma",
-      "Most Creative Gemini Hack"
-    ],
-    "projectLinks": [
-      "https://github.com/adoreblvnk/looplist"
-    ],
-    "videoLinks": [
-      "https://youtu.be/6O1hRZfvt5k"
-    ]
-  },
-  {
-    "id": 11,
-    "name": "Life Moments",
-    "members": [
-      "Zoe Moh Ker Xin"
-    ],
-    "summary": "Most family stories disappear after just one or two generations. Not because they weren’t worth remembering, but because nobody thought to ask. Life Moments is a multilingual AI biographer for our parents and grandparents, powered by Gemini. Gemini listens as elders speak naturally, even mixing Mandarin, English and Malay, and asks thoughtful follow-up questions to uncover the stories behind the stories.…",
-    "tracks": [
-      "Best Elderly Hack",
-      "Most Creative Gemini Hack"
-    ],
-    "projectLinks": [
-      "https://github.com/kang5647/live-moments"
-    ],
-    "videoLinks": [
-      "https://youtu.be/IotSFB2k7CY"
-    ]
-  },
-  {
-    "id": 12,
-    "name": "Sunday",
-    "members": [
-      "Deva"
-    ],
-    "summary": "Sunday is a patient voice-first AI agent that helps elderly users complete mobile tasks safely, hands-free, and with confidence. It is designed for seniors who may struggle with low vision, tremors, reduced dexterity, slow speech, confusing app screens, or fear of pressing the wrong thing. Instead of only answering questions, Sunday helps users take action. It listens to what the user wants to do, understands the…",
-    "tracks": [
-      "Best Elderly Hack",
-      "Most Creative Gemini Hack"
-    ],
-    "projectLinks": [
-      "https://github.com/Delva2305/Sunday.git"
-    ],
-    "videoLinks": [
-      "https://drive.google.com/file/d/1ccmXvvnZ_75g5a_AmXNiSt1HDIPz8nRz/view?usp=sharing"
-    ]
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 6,
+    "isFinalist": true
   },
   {
     "id": 13,
@@ -214,38 +174,126 @@
     ],
     "videoLinks": [
       "https://youtu.be/EPVuUo8N1JE"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 7,
+    "isFinalist": true
   },
   {
-    "id": 14,
-    "name": "Yuban",
-    "members": [],
-    "summary": "yuban (语伴): a Mandarin tutor that texts like a friend, running Gemma 4 fully local. The problem. Language apps die on day nine. Not because Mandarin is hard, but because the words are about nothing you love. You memorize \"the library is across the street\" while what you actually needed was how to tell someone you miss them, or that your dog hates rain. Motivation is the real bottleneck, and generic curriculum…",
+    "id": 17,
+    "name": "SAFEstep",
+    "members": [
+      "1"
+    ],
+    "summary": "SAFEstep is an offline, multimodal iPhone emergency guide for people facing natural disasters or first-aid situations without reliable internet. Powered by on-device Gemma 4 E2B, it understands text, voice, images, location, and surroundings to deliver clear, step-by-step Action Decks. Judges should notice its distinctive stress-first UX, continuous incident context, regional hazard detection, and verified…",
     "tracks": [
       "Best Use of Gemma"
     ],
     "projectLinks": [
-      "https://github.com/easonchai/yuban"
+      "https://github.com/dqv12908/SAFEstep"
     ],
     "videoLinks": [
-      "https://youtu.be/3yEqXEgvy5Y"
-    ]
+      "https://canva.link/qabaux67qag3hwj"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "needs_update",
+      "reason": "edit_link"
+    },
+    "publicId": 8,
+    "isFinalist": false
   },
   {
-    "id": 15,
-    "name": "Memory Bridge",
+    "id": 59,
+    "name": "SuperApp",
+    "members": [
+      "Shubh Kumar"
+    ],
+    "summary": "The video is on github, Demo.mp4",
+    "tracks": [
+      "Best Use of Gemma",
+      "Most Creative Gemini Hack"
+    ],
+    "projectLinks": [
+      "https://github.com/thevaliantthird/SuperApp.git"
+    ],
+    "videoLinks": [
+      "https://github.com/thevaliantthird/SuperApp.git"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "needs_update",
+      "reason": "wrong_content_type"
+    },
+    "publicId": 9,
+    "isFinalist": false
+  },
+  {
+    "id": 46,
+    "name": "AskFirst",
     "members": [],
-    "summary": "Two links in case one fail: AIStudio: aistudio link. Github: Memory Bridge is a voice-first, \"Zero-Chatbot\" multimodal application powered by Gemini Flash 3.7 that bridges generational distances by turning seniors’ spoken memories and vintage photos into illustrated watercolor memoirs, collaborative family photostories, and archival physical keepsakes with one click.",
+    "summary": "Problem Statement Scams targeting elderly people are a growing problem in Singapore — fake bank alerts, delivery-fee scams, government-agency impersonation — arriving as ordinary SMS or WhatsApp messages. Existing scam-checking tools assume a level of comfort elderly users often don't have: copying a message out of one app, opening a browser, finding the right checker, and pasting it in. That friction alone means…",
     "tracks": [
       "Best Elderly Hack",
       "Most Creative Gemini Hack"
     ],
     "projectLinks": [
-      "https://oral-history-storybook-storyteller-852537761029.asia-southeast1.run.app"
+      "https://github.com/kayabuttertoastt/silverscamshield"
     ],
     "videoLinks": [
-      "https://ais-dev-7cdoncvsjhxuw77hienxgm-670795800840.asia-southeast1.run.app/?tab=demo-video"
-    ]
+      "https://drive.google.com/file/d/1UEuFDks3cMAHKEAf7j7uuNS8fOjrPnuU/view?usp=sharing"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 10,
+    "isFinalist": false
+  },
+  {
+    "id": 55,
+    "name": "Fittra Syaifullah",
+    "members": [
+      "Fittra Syaifullah"
+    ],
+    "summary": "How Disegno Works Disegno turns scattered design references, competitor products, inspiration boards, your own concept, into one visible map of the abstract qualities that actually differentiate them, then uses that same map to surface genuinely relevant cross-domain analogies. 1. Input You paste a handful of URLs or text references (competitor products, trend sources) along with a short description of your own…",
+    "tracks": [
+      "Best Use of Gemma",
+      "Most Creative Gemini Hack"
+    ],
+    "projectLinks": [
+      "https://disegno-jzedbi0tn-fittra-syaifullahs-projects.vercel.app/"
+    ],
+    "videoLinks": [
+      "https://drive.google.com/drive/folders/1jSe-k4VpLWv9nq9mp4zb35lT2J5dBB83?usp=sharing"
+    ],
+    "projectLinkAudit": {
+      "status": "needs_update",
+      "reason": "auth_redirect"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 11,
+    "isFinalist": false
   },
   {
     "id": 16,
@@ -263,42 +311,250 @@
     ],
     "videoLinks": [
       "https://drive.google.com/drive/folders/10RLEu2Oi5Jzo-aOtxrBhQZfe8uYXnSnn?usp=sharing"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 12,
+    "isFinalist": false
   },
   {
-    "id": 17,
-    "name": "SAFEstep",
+    "id": 11,
+    "name": "Life Moments",
     "members": [
-      "1"
+      "Zoe Moh Ker Xin"
     ],
-    "summary": "SAFEstep is an offline, multimodal iPhone emergency guide for people facing natural disasters or first-aid situations without reliable internet. Powered by on-device Gemma 4 E2B, it understands text, voice, images, location, and surroundings to deliver clear, step-by-step Action Decks. Judges should notice its distinctive stress-first UX, continuous incident context, regional hazard detection, and verified…",
-    "tracks": [
-      "Best Use of Gemma"
-    ],
-    "projectLinks": [
-      "https://github.com/dqv12908/SAFEstep"
-    ],
-    "videoLinks": [
-      "https://canva.link/qabaux67qag3hwj"
-    ]
-  },
-  {
-    "id": 18,
-    "name": "Treasures Bowl",
-    "members": [
-      "Deepika Rudra Murthy"
-    ],
-    "summary": "By 2030, 1 in 6 people globally will be aged 60+. While our elders hold irreplaceable living history and wisdom, traditional storytelling and oral history apps fail them—acting like robotic interrogators with text-heavy screens, small fonts, and unnatural AI voices that break human intimacy. Treasures Bowl 聚寶盆 is an empathetic, voice-first intergenerational storytelling companion on a single shared tablet for an…",
+    "summary": "Most family stories disappear after just one or two generations. Not because they weren’t worth remembering, but because nobody thought to ask. Life Moments is a multilingual AI biographer for our parents and grandparents, powered by Gemini. Gemini listens as elders speak naturally, even mixing Mandarin, English and Malay, and asks thoughtful follow-up questions to uncover the stories behind the stories.…",
     "tracks": [
       "Best Elderly Hack",
       "Most Creative Gemini Hack"
     ],
     "projectLinks": [
-      "https://github.com/Rajat-Goyal/treasures-bowl"
+      "https://github.com/kang5647/live-moments"
     ],
     "videoLinks": [
-      "https://supercut.ai/share/thebuildercourse/nJ2Nr9llhG1S3IZ9HJnBi2"
-    ]
+      "https://youtu.be/IotSFB2k7CY"
+    ],
+    "projectLinkAudit": {
+      "status": "needs_update",
+      "reason": "not_found"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 13,
+    "isFinalist": false
+  },
+  {
+    "id": 48,
+    "name": "RememberUs",
+    "members": [
+      "Zhou yuxuan",
+      "Chen canbin"
+    ],
+    "summary": "Remember Us is an AI-powered care companion that uses trusted family memories to help people with Alzheimer’s recognize loved ones, find their way home, and stay connected. It connects two coordinated experiences: - Elder Side: A simple, voice-first assistant that identifies callers, answers familiar questions, remembers important tasks, and provides clear directions when the user leaves a safe area. - Family…",
+    "tracks": [
+      "Best Elderly Hack",
+      "Most Creative Gemini Hack"
+    ],
+    "projectLinks": [
+      "https://alzheimer-assistant.e1553762.workers.dev/"
+    ],
+    "videoLinks": [
+      "https://drive.google.com/drive/folders/1-6q37ipz7PJs_4kG6s-MTR6UbBrCwlLb?usp=drive_link"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 14,
+    "isFinalist": false
+  },
+  {
+    "id": 44,
+    "name": "Potluck",
+    "members": [],
+    "summary": "\"Say Some More\" is an empathetic attentive companion that turns \"lorsor\" Singaporean parent 'lore' into 30-second actionable family capsules with human-in-the-loop consent. What Did We Build? Say Some More is an intergenerational oral-memory companion and attention bridge designed to solve the communication gap between elderly or lonely parents and their busy adult children. Elderly parents often share rambling…",
+    "tracks": [
+      "Best Elderly Hack"
+    ],
+    "projectLinks": [
+      "https://github.com/mistypotluck/say-some-more/"
+    ],
+    "videoLinks": [
+      "https://say-some-more.ai.studio"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "needs_update",
+      "reason": "server_error"
+    },
+    "publicId": 15,
+    "isFinalist": false
+  },
+  {
+    "id": 56,
+    "name": "StitchCheck",
+    "members": [],
+    "summary": "StitchCheck helps travellers audit separate-ticket flight itineraries before committing to a booking. A traveller uploads a flight screenshot, and Gemini 3.7 uses multimodal extraction to convert fragmented ticket information into structured, editable itinerary fields. The traveller can review and correct the extracted details—for example, changing flight SC-202 to SC-299—before explicitly confirming the…",
+    "tracks": [
+      "Most Creative Gemini Hack"
+    ],
+    "projectLinks": [
+      "https://github.com/yahgoo/StitchCheck"
+    ],
+    "videoLinks": [
+      "https://youtu.be/cw_cM3MXToU"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 16,
+    "isFinalist": false
+  },
+  {
+    "id": 23,
+    "name": "Ah Ma Line",
+    "members": [],
+    "summary": "A zero-app phone line that lets an elderly person simply talk — in their own language/dialect — while Gemini listens and sends the family a warm daily summary. The problem: Adult kids can call their parents — but often don't. Busy lives, different schedules, and the call becomes a duty. Parents don't want to bother their kids, so the connection quietly erodes. Ah Ma Line fills the gap without replacing family…",
+    "tracks": [
+      "Best Elderly Hack",
+      "Most Creative Gemini Hack"
+    ],
+    "projectLinks": [
+      "https://github.com/bhargav1000/Ah-Ma-Line"
+    ],
+    "videoLinks": [
+      "https://drive.google.com/file/d/1XrZQSx_5svkqnysoROkaq8MwjcaRoa-3/view?usp=sharing"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 17,
+    "isFinalist": false
+  },
+  {
+    "id": 41,
+    "name": "CyberTriage",
+    "members": [],
+    "summary": "Build an intelligent, local, private cybersecurity exploit generator based on known CVE, for the cybersecurity teams around the world to test and harden their own system privately (local gemma4 models on consumer hardware) and securely (sandbox environment). Simple installation using just 1 bash script command There are many customization possible, from model choice, changing the exploits methods, analysis of…",
+    "tracks": [
+      "Best Use of Gemma"
+    ],
+    "projectLinks": [
+      "https://github.com/CheahHaoYi/AIsploitable"
+    ],
+    "videoLinks": [
+      "https://drive.google.com/file/d/1-9250_ah1FXOeJEOAT0BmTruO2BTOoTX/view?usp=drivesdk"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 18,
+    "isFinalist": false
+  },
+  {
+    "id": 37,
+    "name": "Anchor",
+    "members": [],
+    "summary": "Anchor is an ambient memory harness and voice companion designed for seniors living with mild cognitive impairment and their family caregivers, powered by Google’s Gemini Multimodal Live API. 🌟 Key Features: Morning Memory Briefing: Auto-plays comforting spatial grounding (\"Good morning Uncle Tan, you are home in Bedok North\"), yesterday's memories, and today's schedule via a synchronized high-contrast photo…",
+    "tracks": [
+      "Best Elderly Hack"
+    ],
+    "projectLinks": [
+      "https://github.com/hns78-hub/anchor"
+    ],
+    "videoLinks": [
+      "https://youtu.be/0rx0SixMkak"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 19,
+    "isFinalist": false
+  },
+  {
+    "id": 7,
+    "name": "trade-gemma",
+    "members": [],
+    "summary": "Trade-Gemma — an on-device Gemma copilot that makes real trade entries live, backed by a harness that proves the decisions are reasoned, not lucky. Built for anyone who wants to trust an AI trading decision without taking it on faith. Most \"AI trading bot\" projects grade themselves on paper P&L — over a few hours that's close to a coin flip regardless of reasoning quality. We built the opposite: a synthetic…",
+    "tracks": [
+      "Best Use of Gemma"
+    ],
+    "projectLinks": [
+      "https://github.com/sudarshan2401/trade-gemma"
+    ],
+    "videoLinks": [
+      "https://drive.google.com/file/d/1gorr2R974zWb_iDKEPiaBVtA0oMhWuTg/view?usp=drive_link"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 20,
+    "isFinalist": false
+  },
+  {
+    "id": 42,
+    "name": "Medication Reminder",
+    "members": [
+      "None"
+    ],
+    "summary": "MVP App: Medication Reminder Purpose: To ensure patients take their medications on timely basis. To worsening their medical conditions. Features: Allows set up of medicines frequencies and timings Based on pre-selected timings, reminders are triggered App is compatible with Android and iOS mobile phones Once patient had taken the meds, users need to acknowledge “Taken” in app to stop reminder for that instance.…",
+    "tracks": [],
+    "projectLinks": [
+      "https://github.com/melvinlo11/Medication.git"
+    ],
+    "videoLinks": [
+      "https://github.com/melvinlo11/Medication.git//MedicationReminder.mov"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "needs_update",
+      "reason": "not_found"
+    },
+    "publicId": 21,
+    "isFinalist": false
   },
   {
     "id": 19,
@@ -314,7 +570,69 @@
     ],
     "videoLinks": [
       "https://drive.google.com/file/d/1pH2svF2VgWquxMpRAA9yz3mLSZO8xb1t/view?usp=sharing"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "needs_update",
+      "reason": "server_error"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 22,
+    "isFinalist": false
+  },
+  {
+    "id": 9,
+    "name": "swarm defence",
+    "members": [
+      "junhong"
+    ],
+    "summary": "interactive AI-driven cybersecurity range where operators take part in Red Team attacks and Blue Team across real-world scenarios with step-by-step MITRE/OWASP debriefs and live graphical analytics",
+    "tracks": [
+      "Most Creative Gemini Hack"
+    ],
+    "projectLinks": [
+      "https://github.com/tjh87/swarm-defence"
+    ],
+    "videoLinks": [
+      "https://streamable.com/0u29gv"
+    ],
+    "projectLinkAudit": {
+      "status": "needs_update",
+      "reason": "not_found"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 23,
+    "isFinalist": false
+  },
+  {
+    "id": 61,
+    "name": "Pushkar's Solo Team",
+    "members": [],
+    "summary": "I built a tool for experimental scientists to build bespoke reinforcement learning environments to train their local models to handle the tedious parts of running an experiment (like making sure all components are working, the data is free from noise and 100x other things that go into running an experiment). The project uses Gemma for scientist to help build the environment and the also fine tune an agent to do a…",
+    "tracks": [
+      "Best Use of Gemma"
+    ],
+    "projectLinks": [
+      "https://github.com/pushkarsingh019/environment_for_science"
+    ],
+    "videoLinks": [
+      "https://github.com/pushkarsingh019/environment_for_science"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "needs_update",
+      "reason": "wrong_content_type"
+    },
+    "publicId": 24,
+    "isFinalist": false
   },
   {
     "id": 20,
@@ -330,7 +648,126 @@
     ],
     "videoLinks": [
       "https://ais-pre-jgzgtl3oq3q2m7lhwvfug4-670795800840.asia-southeast1.run.app/?__aistudio_auth_token=one_token_to_rule_them_all&demo=1"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "needs_update",
+      "reason": "cookie_gate"
+    },
+    "publicId": 25,
+    "isFinalist": false
+  },
+  {
+    "id": 15,
+    "name": "Memory Bridge",
+    "members": [],
+    "summary": "Two links in case one fail: AIStudio: aistudio link. Github: Memory Bridge is a voice-first, \"Zero-Chatbot\" multimodal application powered by Gemini Flash 3.7 that bridges generational distances by turning seniors’ spoken memories and vintage photos into illustrated watercolor memoirs, collaborative family photostories, and archival physical keepsakes with one click.",
+    "tracks": [
+      "Best Elderly Hack",
+      "Most Creative Gemini Hack"
+    ],
+    "projectLinks": [
+      "https://oral-history-storybook-storyteller-852537761029.asia-southeast1.run.app"
+    ],
+    "videoLinks": [
+      "https://ais-dev-7cdoncvsjhxuw77hienxgm-670795800840.asia-southeast1.run.app/?tab=demo-video"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "needs_update",
+      "reason": "cookie_gate"
+    },
+    "publicId": 26,
+    "isFinalist": false
+  },
+  {
+    "id": 40,
+    "name": "PetPat Call",
+    "members": [
+      "1"
+    ],
+    "summary": "PetPat Call is an AI comfort-call companion for pets that suffere from separation anxiety. It listens for signs of anxiety in pet sounds, then plays the right pre-recorded owner voice message to comfort them in the moment.",
+    "tracks": [
+      "Best Use of Gemma"
+    ],
+    "projectLinks": [
+      "https://github.com/estherwyl/petpat-call"
+    ],
+    "videoLinks": [
+      "https://drive.google.com/file/d/1tMtvCDr9-2aE92nN49ckwZNuuvqBrnHT/view?usp=sharing"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 27,
+    "isFinalist": false
+  },
+  {
+    "id": 53,
+    "name": "BusPay",
+    "members": [
+      "Akdora"
+    ],
+    "summary": "ONE-LINER: 500k+ minibuses in Turkey having 1.2m+ passengers daily don't have POS systems. DETAILS: - Minibus fares are given by destination and passenger status. - The driver needs to calculate bus fare according to these 2, then give change to each passenger, while driving. - Paying by card is expensive for business due to high interchange fees SOLUTION: - Scan QR code for starting point - Validate if you're…",
+    "tracks": [
+      "Most Creative Gemini Hack",
+      "Best Use of Gemma"
+    ],
+    "projectLinks": [
+      "https://buspay.akdora-c.chatgpt.site/"
+    ],
+    "videoLinks": [
+      "https://youtu.be/c16_3CIOQbE"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 28,
+    "isFinalist": false
+  },
+  {
+    "id": 50,
+    "name": "Parking My Thoughts",
+    "members": [
+      "nil"
+    ],
+    "summary": "Why existing tools (Siri, touchscreens, $10,000 eye trackers) fail Parkinson's seniors with hypophonia and tremors. Core Differentiating Value Propositions: Zero-Touch \"Eye-Ray\" Pupil Gaze Tracker & Dwell Cone. Dual-Voice Engine + SEA-LION Dialects (Cantonese/Hokkien/Teochew) + Instant FDW Helper Cards (Tagalog/Bahasa/Burmese). Caregiver AI Habit Training & Reinforcement Memory Bank. Eldercare UI (1.4x Jumbo…",
+    "tracks": [
+      "Best Elderly Hack",
+      "Most Creative Gemini Hack"
+    ],
+    "projectLinks": [
+      "https://github.com/TWO-MIX/Parking-My-Thoughts-2"
+    ],
+    "videoLinks": [
+      "https://www.youtube.com"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "needs_update",
+      "reason": "generic_target"
+    },
+    "publicId": 29,
+    "isFinalist": false
   },
   {
     "id": 21,
@@ -350,139 +787,17 @@
     ],
     "videoLinks": [
       "https://www.canva.com/design/DAHS_ojUZNE/z6ZT0YNcN-U7mR7nDFTuuw/edit"
-    ]
-  },
-  {
-    "id": 22,
-    "name": "Catch&Deco",
-    "members": [],
-    "summary": "When Pokemon Go meets Bondee: Catch items using Poké-inspired balls, then use them to decorate your own 3D room. A different way to imagine how your room would look like, and using one of Singapore's most popular games to add that gamified element.",
-    "tracks": [
-      "Most Creative Gemini Hack"
     ],
-    "projectLinks": [
-      "https://github.com/daricewong/Catch-and-Deco"
-    ],
-    "videoLinks": [
-      "https://youtu.be/Bu70g4V9CpQ"
-    ]
-  },
-  {
-    "id": 23,
-    "name": "Ah Ma Line",
-    "members": [],
-    "summary": "A zero-app phone line that lets an elderly person simply talk — in their own language/dialect — while Gemini listens and sends the family a warm daily summary. The problem: Adult kids can call their parents — but often don't. Busy lives, different schedules, and the call becomes a duty. Parents don't want to bother their kids, so the connection quietly erodes. Ah Ma Line fills the gap without replacing family…",
-    "tracks": [
-      "Best Elderly Hack",
-      "Most Creative Gemini Hack"
-    ],
-    "projectLinks": [
-      "https://github.com/bhargav1000/Ah-Ma-Line"
-    ],
-    "videoLinks": [
-      "https://drive.google.com/file/d/1XrZQSx_5svkqnysoROkaq8MwjcaRoa-3/view?usp=sharing"
-    ]
-  },
-  {
-    "id": 24,
-    "name": "GUESSLIGHT",
-    "members": [],
-    "summary": "Guesslight is an AI-powered visual game for casual puzzle fans. Players identify an everyday object hidden behind a mosaic; every close guess makes the image clearer and prompts Gemini to provide a concise comparison and reveal a relevant visual feature. Gemini creates an adaptive, explainable clue trail while deterministic game logic controls answers, scoring, progression, and safety. Players can explore curated…",
-    "tracks": [
-      "Most Creative Gemini Hack",
-      "Best Elderly Hack"
-    ],
-    "projectLinks": [
-      "https://github.com/Dylon-Chan/gemini-hackathon-220826"
-    ],
-    "videoLinks": [
-      "https://youtu.be/mwiFwBRrhXo"
-    ]
-  },
-  {
-    "id": 25,
-    "name": "smalltalk",
-    "members": [],
-    "summary": "Smalltalk helps people networking during events but reducing the friction and letting agents talk to other agents on their behalf",
-    "tracks": [
-      "Most Creative Gemini Hack"
-    ],
-    "projectLinks": [
-      "https://github.com/fadnavismehul/smalltalk/tree/main"
-    ],
-    "videoLinks": [
-      "https://drive.google.com/file/d/1cHuHbwN_uO48jpg-1wmUZdfdUF1TGlmG/view?usp=sharing"
-    ]
-  },
-  {
-    "id": 26,
-    "name": "Origin Silver",
-    "members": [
-      "Natalia; Eric; Julie"
-    ],
-    "summary": "The Problem: The Financial Fog of Retirement Modern personal finance platforms are built for quantitative traders, not retirees. Complex candlestick charts, dense spreadsheet dashboards, opaque fee schedules, and volatile market jargon leave older adults feeling anxious, alienated, and vulnerable to mismanaging fixed incomes, RMDs (Required Minimum Distributions), pensions, and long-term savings. Our Solution:…",
-    "tracks": [
-      "Best Elderly Hack",
-      "Most Creative Gemini Hack"
-    ],
-    "projectLinks": [
-      "https://www.dropbox.com/t/tEDDdFGQk9jxqgJv"
-    ],
-    "videoLinks": [
-      "https://www.dropbox.com/t/Y5v9N6MV01UFoQqe"
-    ]
-  },
-  {
-    "id": 27,
-    "name": "Retro TV",
-    "members": [],
-    "summary": "Retro TV lets older adults and their families tune into Singapore’s past together to make browsing an intergenerational bonding experience instead of just another individual doomscrolling exercise. Families get to channel-surf through TV, music, cinema, home life, food and places based on the different years of Singapore's past, using an interface itself inspired by the television and Teletext screens older…",
-    "tracks": [
-      "Best Elderly Hack",
-      "Most Creative Gemini Hack"
-    ],
-    "projectLinks": [
-      "https://github.com/papermelon/retro-tv"
-    ],
-    "videoLinks": [
-      "https://drive.google.com/drive/folders/1iL18kTo4Kjn0iYSE9oUxBRzIOfgMnFw5?usp=sharing"
-    ]
-  },
-  {
-    "id": 28,
-    "name": "Agrim Tycoon",
-    "members": [
-      "Sayyid Khan"
-    ],
-    "summary": "Agrim Tycoon is a city-management game where you become mayor of Innovation City and balance three competing worlds: AI mission systems, the 65labs community, and Code With AI’s next generation of builders. Every scenario forces a trade-off between speed, public trust, human oversight, and energy. Gemma is the local chief of staff inside the game. It runs on-device through a bundled llama.cpp runtime, triaging…",
-    "tracks": [
-      "Best Use of Gemma"
-    ],
-    "projectLinks": [
-      "https://agrim-tycoon.vercel.app/"
-    ],
-    "videoLinks": [
-      "https://youtu.be/x25d2_Ezd30"
-    ]
-  },
-  {
-    "id": 29,
-    "name": "Aldex",
-    "members": [
-      "Axell",
-      "Panda and his little sister - Red Panda"
-    ],
-    "summary": "Aldex started because my dad has brain cancer, and love is not a system. After the diagnosis, the days split in two. There is the person I know, and there is the work of keeping him safe: which pill was this morning, what the scan actually said, who is driving on Thursday, whether today is a clear day or a fog day. I was doing that work in my head, in notes, in texts to people who each held a different piece. My…",
-    "tracks": [
-      "Best Elderly Hack",
-      "Best Use of Gemma"
-    ],
-    "projectLinks": [
-      "https://github.com/yademy/Aldex"
-    ],
-    "videoLinks": [
-      "https://youtu.be/FAlLKinXCZY"
-    ]
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "needs_update",
+      "reason": "edit_link"
+    },
+    "publicId": 30,
+    "isFinalist": false
   },
   {
     "id": 30,
@@ -497,7 +812,94 @@
     ],
     "videoLinks": [
       "https://streamable.com/y5h9sq"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "needs_update",
+      "reason": "server_error"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 31,
+    "isFinalist": false
+  },
+  {
+    "id": 8,
+    "name": "Kai",
+    "members": [],
+    "summary": "Digital exclusion among the elderly isn't a hardware problem anymore, it's an interface literacy problem. Every app, form, and website uses different jargon and layouts, and there's no patient, judgment-free way to ask \"what does this mean\" without interrupting someone else's day. ScreenGuide is a floating desktop assistant with running todo lists and blockers, Runs on a local, free open-weight model (Gemma 4 via…",
+    "tracks": [
+      "Best Use of Gemma",
+      "Best Elderly Hack"
+    ],
+    "projectLinks": [
+      "https://github.com/vlyot/ScreenAssist/"
+    ],
+    "videoLinks": [
+      "https://youtu.be/N3_-AX6l_Cs"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 32,
+    "isFinalist": false
+  },
+  {
+    "id": 25,
+    "name": "smalltalk",
+    "members": [],
+    "summary": "Smalltalk helps people networking during events but reducing the friction and letting agents talk to other agents on their behalf",
+    "tracks": [
+      "Most Creative Gemini Hack"
+    ],
+    "projectLinks": [
+      "https://github.com/fadnavismehul/smalltalk/tree/main"
+    ],
+    "videoLinks": [
+      "https://drive.google.com/file/d/1cHuHbwN_uO48jpg-1wmUZdfdUF1TGlmG/view?usp=sharing"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 33,
+    "isFinalist": false
+  },
+  {
+    "id": 10,
+    "name": "looplist",
+    "members": [],
+    "summary": "LoopList is a zero-friction resale marketplace where Gemini turns photos into verified listings, Gemma finds the right buyers, and x402 handles instant on-chain checkout. Think of it as Carousell with agentic payments and sellers",
+    "tracks": [
+      "Best Use of Gemma",
+      "Most Creative Gemini Hack"
+    ],
+    "projectLinks": [
+      "https://github.com/adoreblvnk/looplist"
+    ],
+    "videoLinks": [
+      "https://youtu.be/6O1hRZfvt5k"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 34,
+    "isFinalist": false
   },
   {
     "id": 31,
@@ -516,22 +918,71 @@
     ],
     "videoLinks": [
       "https://www.loom.com/share/8cfb517ce685401ea1229d4aa0726467"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 35,
+    "isFinalist": false
   },
   {
-    "id": 32,
-    "name": "Anchor",
+    "id": 24,
+    "name": "GUESSLIGHT",
     "members": [],
-    "summary": "ANCHOR is a voice-first, caregiver-assisted memory practice app for people living with dementia. A caregiver uploads a photo of a familiar room, such as a bedroom, living room, or workspace. Gemini identifies visible objects and their locations, then the caregiver reviews and approves them. ANCHOR turns those verified details into six calm, room-specific activities that help the person rehearse object…",
+    "summary": "Guesslight is an AI-powered visual game for casual puzzle fans. Players identify an everyday object hidden behind a mosaic; every close guess makes the image clearer and prompts Gemini to provide a concise comparison and reveal a relevant visual feature. Gemini creates an adaptive, explainable clue trail while deterministic game logic controls answers, scoring, progression, and safety. Players can explore curated…",
     "tracks": [
+      "Most Creative Gemini Hack",
       "Best Elderly Hack"
     ],
     "projectLinks": [
-      "https://github.com/Kk120306/gemini-hackathon"
+      "https://github.com/Dylon-Chan/gemini-hackathon-220826"
     ],
     "videoLinks": [
-      "https://drive.google.com/file/d/1qJhKCYEoIoj32mk_gz4XNtv5YTKEKGel/view?usp=sharing"
-    ]
+      "https://youtu.be/mwiFwBRrhXo"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 36,
+    "isFinalist": false
+  },
+  {
+    "id": 12,
+    "name": "Sunday",
+    "members": [
+      "Deva"
+    ],
+    "summary": "Sunday is a patient voice-first AI agent that helps elderly users complete mobile tasks safely, hands-free, and with confidence. It is designed for seniors who may struggle with low vision, tremors, reduced dexterity, slow speech, confusing app screens, or fear of pressing the wrong thing. Instead of only answering questions, Sunday helps users take action. It listens to what the user wants to do, understands the…",
+    "tracks": [
+      "Best Elderly Hack",
+      "Most Creative Gemini Hack"
+    ],
+    "projectLinks": [
+      "https://github.com/Delva2305/Sunday.git"
+    ],
+    "videoLinks": [
+      "https://drive.google.com/file/d/1ccmXvvnZ_75g5a_AmXNiSt1HDIPz8nRz/view?usp=sharing"
+    ],
+    "projectLinkAudit": {
+      "status": "needs_update",
+      "reason": "not_found"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 37,
+    "isFinalist": false
   },
   {
     "id": 33,
@@ -546,185 +997,93 @@
     ],
     "videoLinks": [
       "https://youtu.be/I0-GH1-ecH4"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 38,
+    "isFinalist": false
   },
   {
-    "id": 34,
-    "name": "Xin",
+    "id": 54,
+    "name": "SilverVoice",
     "members": [],
-    "summary": "Xin calls your elderly folks every day in their own language — family news, gentle reminders, and a real sense of how they're doing. When they say something worth keeping, Xin keeps it in their voice and delivers it years later, on the day it matters. Sentiment analysis + time capsules!",
+    "summary": "A hands-free, voice-first companion that turns simple spoken requests into clean, structured errand lists for caregivers. Github:",
     "tracks": [
       "Best Elderly Hack"
     ],
     "projectLinks": [
-      "https://github.com/lukecybex/xin-deepmind-hackathon"
+      "https://silvervoice.ai.studio"
     ],
     "videoLinks": [
-      "https://youtu.be/-8fKWYid8mE"
-    ]
+      "https://drive.google.com/file/d/1br6v6bCgEhxKKLiifxWoC8JI_3r57eGy/view?usp=sharing"
+    ],
+    "projectLinkAudit": {
+      "status": "needs_update",
+      "reason": "server_error"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 39,
+    "isFinalist": false
   },
   {
-    "id": 35,
-    "name": "KopiKakis",
-    "members": [
-      "Vincent Ong",
-      "Kalent Chia"
-    ],
-    "summary": "KopiKaki is a voice-first AI social concierge powered by Gemini that lets seniors simply talk to an agent, get matched with a compatible kaki, and turn a phone call into a real-world meetup.",
-    "tracks": [
-      "Best Elderly Hack"
-    ],
-    "projectLinks": [
-      "https://github.com/gabriel-wan/kopikaki"
-    ],
-    "videoLinks": [
-      "https://drive.google.com/file/d/1-zf7SHbo8J8qUpZ0KvmTMBFkSL9yxHYS/view?usp=sharing"
-    ]
-  },
-  {
-    "id": 36,
-    "name": "Porchlight",
-    "members": [
-      "Abhijit (1)"
-    ],
-    "summary": "Porchlight Privacy-first elderly wellbeing monitor — Gemma 4 runs on-device to turn room photos into a sentence for family. Only words leave the room. Built for the Build with Gemini Hackathon 2026 (Google DeepMind × Lorong AI, Singapore) — Best Use of Gemma and Best Elderly Hack.",
-    "tracks": [
-      "Best Use of Gemma",
-      "Best Elderly Hack"
-    ],
-    "projectLinks": [
-      "https://github.com/abhijitt/porchlight"
-    ],
-    "videoLinks": [
-      "https://drive.google.com/file/d/1a2PDwu3URrIR3rfMNlLC6gOK4RxfFNwB/view?usp=sharing"
-    ]
-  },
-  {
-    "id": 37,
-    "name": "Anchor",
+    "id": 51,
+    "name": "WN",
     "members": [],
-    "summary": "Anchor is an ambient memory harness and voice companion designed for seniors living with mild cognitive impairment and their family caregivers, powered by Google’s Gemini Multimodal Live API. 🌟 Key Features: Morning Memory Briefing: Auto-plays comforting spatial grounding (\"Good morning Uncle Tan, you are home in Bedok North\"), yesterday's memories, and today's schedule via a synchronized high-contrast photo…",
+    "summary": "Memory Lantern A voice-first, safety-aware memory-preservation experience for older adults, powered by Google Gemini. Memory Lantern turns a spoken memory—and optionally a meaningful keepsake—into a warm first-person story that can be safely shared with family through a no-login link. It was built for the Build with Gemini Hackathon 2026, targeting the Best Elderly Hack and Most Creative Gemini Hack tracks. Why…",
     "tracks": [
-      "Best Elderly Hack"
-    ],
-    "projectLinks": [
-      "https://github.com/hns78-hub/anchor"
-    ],
-    "videoLinks": [
-      "https://youtu.be/0rx0SixMkak"
-    ]
-  },
-  {
-    "id": 38,
-    "name": "Diffusion Enjoyers",
-    "members": [
-      "Anurag Roy"
-    ],
-    "summary": "The Loom uses DiffusionGemma to create a story that dynamically changes over time. Unlike traditional LLMs, diffusion models provide faster local inference and are able to incorporate multiple changes in a forward pass when provided by a user. When traditional LLMs are asked to change a story, they can only edit everything ahead of it or behind it in one pass. A diffusion canvas has no \"before\" or \"after\", every…",
-    "tracks": [
-      "Best Use of Gemma",
+      "Best Elderly Hack",
       "Most Creative Gemini Hack"
     ],
     "projectLinks": [
-      "https://github.com/anuragroy2001/diffusiontest/"
+      "https://github.com/NguiWeily/Memory-Lantern"
     ],
     "videoLinks": [
-      "https://drive.google.com/file/d/173NHCRbeygBUNZ5DbCjRfxJ5OFG3ENd9/view?usp=sharing"
-    ]
+      "https://youtu.be/p-0w7GhHzFo"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 40,
+    "isFinalist": false
   },
   {
-    "id": 39,
-    "name": "KakiCompanion AI",
+    "id": 14,
+    "name": "Yuban",
     "members": [],
-    "summary": "Github - Live URL - Simple Story -> A senior says: ‘I feel lonely today. Anyone want to lim kopi?’ KakiCompanion understands the Singlish, replies warmly, and creates a nearby kopi-chat invitation. Then the senior scans a suspicious letter, and Kaki explains the possible scam signs in simple language. We built KakiCompanion AI — Your Kampung AI Kaki, a voice-first and camera-enabled home companion for Singapore…",
-    "tracks": [
-      "Best Use of Gemma",
-      "Best Elderly Hack"
-    ],
-    "projectLinks": [
-      "https://kakicompanion-ai.ai.studio/"
-    ],
-    "videoLinks": [
-      "https://drive.google.com/file/d/1pH2svF2VgWquxMpRAA9yz3mLSZO8xb1t/view?usp=sharing"
-    ]
-  },
-  {
-    "id": 40,
-    "name": "PetPat Call",
-    "members": [
-      "1"
-    ],
-    "summary": "PetPat Call is an AI comfort-call companion for pets that suffere from separation anxiety. It listens for signs of anxiety in pet sounds, then plays the right pre-recorded owner voice message to comfort them in the moment.",
+    "summary": "yuban (语伴): a Mandarin tutor that texts like a friend, running Gemma 4 fully local. The problem. Language apps die on day nine. Not because Mandarin is hard, but because the words are about nothing you love. You memorize \"the library is across the street\" while what you actually needed was how to tell someone you miss them, or that your dog hates rain. Motivation is the real bottleneck, and generic curriculum…",
     "tracks": [
       "Best Use of Gemma"
     ],
     "projectLinks": [
-      "https://github.com/estherwyl/petpat-call"
+      "https://github.com/easonchai/yuban"
     ],
     "videoLinks": [
-      "https://drive.google.com/file/d/1tMtvCDr9-2aE92nN49ckwZNuuvqBrnHT/view?usp=sharing"
-    ]
-  },
-  {
-    "id": 41,
-    "name": "CyberTriage",
-    "members": [],
-    "summary": "Build an intelligent, local, private cybersecurity exploit generator based on known CVE, for the cybersecurity teams around the world to test and harden their own system privately (local gemma4 models on consumer hardware) and securely (sandbox environment). Simple installation using just 1 bash script command There are many customization possible, from model choice, changing the exploits methods, analysis of…",
-    "tracks": [
-      "Best Use of Gemma"
+      "https://youtu.be/3yEqXEgvy5Y"
     ],
-    "projectLinks": [
-      "https://github.com/CheahHaoYi/AIsploitable"
-    ],
-    "videoLinks": [
-      "https://drive.google.com/file/d/1-9250_ah1FXOeJEOAT0BmTruO2BTOoTX/view?usp=drivesdk"
-    ]
-  },
-  {
-    "id": 42,
-    "name": "Medication Reminder",
-    "members": [
-      "None"
-    ],
-    "summary": "MVP App: Medication Reminder Purpose: To ensure patients take their medications on timely basis. To worsening their medical conditions. Features: Allows set up of medicines frequencies and timings Based on pre-selected timings, reminders are triggered App is compatible with Android and iOS mobile phones Once patient had taken the meds, users need to acknowledge “Taken” in app to stop reminder for that instance.…",
-    "tracks": [],
-    "projectLinks": [
-      "https://github.com/melvinlo11/Medication.git"
-    ],
-    "videoLinks": [
-      "https://github.com/melvinlo11/Medication.git//MedicationReminder.mov"
-    ]
-  },
-  {
-    "id": 43,
-    "name": "87K Windows",
-    "members": [],
-    "summary": "87K Windows starts with a simple idea: older people carry a lifetime of stories, skills and knowledge, but often lack an easy way to share them with someone who would genuinely value them. The experience asks one gentle question and lets a participant speak or type a memory. Gemma turns it into a short, privacy-safe summary, which the participant can review and approve before anything is shared. A projected wall…",
-    "tracks": [
-      "Best Elderly Hack",
-      "Best Use of Gemma"
-    ],
-    "projectLinks": [
-      "https://github.com/tanveerriaz/87k-windows"
-    ],
-    "videoLinks": [
-      "https://windows-87k-985493069617.asia-southeast1.run.app/"
-    ]
-  },
-  {
-    "id": 44,
-    "name": "Potluck",
-    "members": [],
-    "summary": "\"Say Some More\" is an empathetic attentive companion that turns \"lorsor\" Singaporean parent 'lore' into 30-second actionable family capsules with human-in-the-loop consent. What Did We Build? Say Some More is an intergenerational oral-memory companion and attention bridge designed to solve the communication gap between elderly or lonely parents and their busy adult children. Elderly parents often share rambling…",
-    "tracks": [
-      "Best Elderly Hack"
-    ],
-    "projectLinks": [
-      "https://github.com/mistypotluck/say-some-more/"
-    ],
-    "videoLinks": [
-      "https://say-some-more.ai.studio"
-    ]
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 41,
+    "isFinalist": false
   },
   {
     "id": 45,
@@ -743,23 +1102,100 @@
     ],
     "videoLinks": [
       "https://drive.google.com/file/d/1Nmf_mL-SOwf-TAOBfJcF3f5Sp2qU-2NQ/view"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 42,
+    "isFinalist": false
   },
   {
-    "id": 46,
-    "name": "AskFirst",
-    "members": [],
-    "summary": "Problem Statement Scams targeting elderly people are a growing problem in Singapore — fake bank alerts, delivery-fee scams, government-agency impersonation — arriving as ordinary SMS or WhatsApp messages. Existing scam-checking tools assume a level of comfort elderly users often don't have: copying a message out of one app, opening a browser, finding the right checker, and pasting it in. That friction alone means…",
+    "id": 38,
+    "name": "Diffusion Enjoyers",
+    "members": [
+      "Anurag Roy"
+    ],
+    "summary": "The Loom uses DiffusionGemma to create a story that dynamically changes over time. Unlike traditional LLMs, diffusion models provide faster local inference and are able to incorporate multiple changes in a forward pass when provided by a user. When traditional LLMs are asked to change a story, they can only edit everything ahead of it or behind it in one pass. A diffusion canvas has no \"before\" or \"after\", every…",
+    "tracks": [
+      "Best Use of Gemma",
+      "Most Creative Gemini Hack"
+    ],
+    "projectLinks": [
+      "https://github.com/anuragroy2001/diffusiontest/"
+    ],
+    "videoLinks": [
+      "https://drive.google.com/file/d/173NHCRbeygBUNZ5DbCjRfxJ5OFG3ENd9/view?usp=sharing"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 43,
+    "isFinalist": false
+  },
+  {
+    "id": 60,
+    "name": "Muning",
+    "members": [
+      "SEE WI JIE"
+    ],
+    "summary": "A proactive check-in agent for elderlies (the videl submission could not load)",
+    "tracks": [
+      "Best Elderly Hack"
+    ],
+    "projectLinks": [
+      "https://github.com/spacerac00n/Muning_gemini_hackathon"
+    ],
+    "videoLinks": [
+      "https://github.com/spacerac00n/Muning_gemini_hackathon"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "needs_update",
+      "reason": "wrong_content_type"
+    },
+    "publicId": 44,
+    "isFinalist": false
+  },
+  {
+    "id": 26,
+    "name": "Origin Silver",
+    "members": [
+      "Natalia; Eric; Julie"
+    ],
+    "summary": "The Problem: The Financial Fog of Retirement Modern personal finance platforms are built for quantitative traders, not retirees. Complex candlestick charts, dense spreadsheet dashboards, opaque fee schedules, and volatile market jargon leave older adults feeling anxious, alienated, and vulnerable to mismanaging fixed incomes, RMDs (Required Minimum Distributions), pensions, and long-term savings. Our Solution:…",
     "tracks": [
       "Best Elderly Hack",
       "Most Creative Gemini Hack"
     ],
     "projectLinks": [
-      "https://github.com/kayabuttertoastt/silverscamshield"
+      "https://www.dropbox.com/t/tEDDdFGQk9jxqgJv"
     ],
     "videoLinks": [
-      "https://drive.google.com/file/d/1UEuFDks3cMAHKEAf7j7uuNS8fOjrPnuU/view?usp=sharing"
-    ]
+      "https://www.dropbox.com/t/Y5v9N6MV01UFoQqe"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 45,
+    "isFinalist": false
   },
   {
     "id": 47,
@@ -774,26 +1210,95 @@
     ],
     "videoLinks": [
       "https://youtu.be/0wHAMkd0BGk"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "needs_update",
+      "reason": "not_found"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 46,
+    "isFinalist": false
   },
   {
-    "id": 48,
-    "name": "RememberUs",
-    "members": [
-      "Zhou yuxuan",
-      "Chen canbin"
+    "id": 34,
+    "name": "Xin",
+    "members": [],
+    "summary": "Xin calls your elderly folks every day in their own language — family news, gentle reminders, and a real sense of how they're doing. When they say something worth keeping, Xin keeps it in their voice and delivers it years later, on the day it matters. Sentiment analysis + time capsules!",
+    "tracks": [
+      "Best Elderly Hack"
     ],
-    "summary": "Remember Us is an AI-powered care companion that uses trusted family memories to help people with Alzheimer’s recognize loved ones, find their way home, and stay connected. It connects two coordinated experiences: - Elder Side: A simple, voice-first assistant that identifies callers, answers familiar questions, remembers important tasks, and provides clear directions when the user leaves a safe area. - Family…",
+    "projectLinks": [
+      "https://github.com/lukecybex/xin-deepmind-hackathon"
+    ],
+    "videoLinks": [
+      "https://youtu.be/-8fKWYid8mE"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 47,
+    "isFinalist": false
+  },
+  {
+    "id": 58,
+    "name": "VisionPath",
+    "members": [],
+    "summary": "(Demo video is embedded in the project link in case of issue accessing the demo video link directly) :) “You are not old… until you are.” — VisionPath AI transforms everyday citizen fitness into a real-time assistive shield for our elders, combining crowdsourced civic incentives with sub-500ms Gemini 2.5 multimodal spatial AI. Building trusts of Active Citizens, and grow with them as a trustable tool they will…",
     "tracks": [
       "Best Elderly Hack",
       "Most Creative Gemini Hack"
     ],
     "projectLinks": [
-      "https://alzheimer-assistant.e1553762.workers.dev/"
+      "https://ai.studio/apps/75c5feff-56c0-4b4b-a9b9-d2df31976c60"
     ],
     "videoLinks": [
-      "https://drive.google.com/drive/folders/1-6q37ipz7PJs_4kG6s-MTR6UbBrCwlLb?usp=drive_link"
-    ]
+      "https://ais-dev-jgzgtl3oq3q2m7lhwvfug4-670795800840.asia-southeast1.run.app/?demo=1"
+    ],
+    "projectLinkAudit": {
+      "status": "needs_update",
+      "reason": "auth_redirect"
+    },
+    "videoLinkAudit": {
+      "status": "needs_update",
+      "reason": "cookie_gate"
+    },
+    "publicId": 48,
+    "isFinalist": false
+  },
+  {
+    "id": 28,
+    "name": "Agrim Tycoon",
+    "members": [
+      "Sayyid Khan"
+    ],
+    "summary": "Agrim Tycoon is a city-management game where you become mayor of Innovation City and balance three competing worlds: AI mission systems, the 65labs community, and Code With AI’s next generation of builders. Every scenario forces a trade-off between speed, public trust, human oversight, and energy. Gemma is the local chief of staff inside the game. It runs on-device through a bundled llama.cpp runtime, triaging…",
+    "tracks": [
+      "Best Use of Gemma"
+    ],
+    "projectLinks": [
+      "https://agrim-tycoon.vercel.app/"
+    ],
+    "videoLinks": [
+      "https://youtu.be/x25d2_Ezd30"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 49,
+    "isFinalist": false
   },
   {
     "id": 49,
@@ -811,123 +1316,96 @@
     ],
     "videoLinks": [
       "https://drive.google.com/drive/folders/1dQLy0gHW82um9xfnItUp-_q5lWPbGOpu?usp=sharing"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 50,
+    "isFinalist": false
   },
   {
-    "id": 50,
-    "name": "Parking My Thoughts",
+    "id": 36,
+    "name": "Porchlight",
     "members": [
-      "nil"
+      "Abhijit (1)"
     ],
-    "summary": "Why existing tools (Siri, touchscreens, $10,000 eye trackers) fail Parkinson's seniors with hypophonia and tremors. Core Differentiating Value Propositions: Zero-Touch \"Eye-Ray\" Pupil Gaze Tracker & Dwell Cone. Dual-Voice Engine + SEA-LION Dialects (Cantonese/Hokkien/Teochew) + Instant FDW Helper Cards (Tagalog/Bahasa/Burmese). Caregiver AI Habit Training & Reinforcement Memory Bank. Eldercare UI (1.4x Jumbo…",
+    "summary": "Porchlight Privacy-first elderly wellbeing monitor — Gemma 4 runs on-device to turn room photos into a sentence for family. Only words leave the room. Built for the Build with Gemini Hackathon 2026 (Google DeepMind × Lorong AI, Singapore) — Best Use of Gemma and Best Elderly Hack.",
     "tracks": [
-      "Best Elderly Hack",
-      "Most Creative Gemini Hack"
+      "Best Use of Gemma",
+      "Best Elderly Hack"
     ],
     "projectLinks": [
-      "https://github.com/TWO-MIX/Parking-My-Thoughts-2"
+      "https://github.com/abhijitt/porchlight"
     ],
     "videoLinks": [
-      "https://www.youtube.com"
-    ]
+      "https://drive.google.com/file/d/1a2PDwu3URrIR3rfMNlLC6gOK4RxfFNwB/view?usp=sharing"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 51,
+    "isFinalist": false
   },
   {
-    "id": 51,
-    "name": "WN",
+    "id": 32,
+    "name": "Anchor",
     "members": [],
-    "summary": "Memory Lantern A voice-first, safety-aware memory-preservation experience for older adults, powered by Google Gemini. Memory Lantern turns a spoken memory—and optionally a meaningful keepsake—into a warm first-person story that can be safely shared with family through a no-login link. It was built for the Build with Gemini Hackathon 2026, targeting the Best Elderly Hack and Most Creative Gemini Hack tracks. Why…",
-    "tracks": [
-      "Best Elderly Hack",
-      "Most Creative Gemini Hack"
-    ],
-    "projectLinks": [
-      "https://github.com/NguiWeily/Memory-Lantern"
-    ],
-    "videoLinks": [
-      "https://youtu.be/p-0w7GhHzFo"
-    ]
-  },
-  {
-    "id": 52,
-    "name": "Memento",
-    "members": [],
-    "summary": "An assistive recording and cognitive anchoring tool for seniors with memory loss, featuring real-time context anchoring, sensory carousels, and tamper-proof legal verification.",
-    "tracks": [
-      "Best Elderly Hack",
-      "Most Creative Gemini Hack"
-    ],
-    "projectLinks": [
-      "https://usememento.ai.studio/"
-    ],
-    "videoLinks": [
-      "https://drive.google.com/drive/folders/1jscQ_qVEEOfziY8jE9duEEpnd1o4oWqY?usp=sharing"
-    ]
-  },
-  {
-    "id": 53,
-    "name": "BusPay",
-    "members": [
-      "Akdora"
-    ],
-    "summary": "ONE-LINER: 500k+ minibuses in Turkey having 1.2m+ passengers daily don't have POS systems. DETAILS: - Minibus fares are given by destination and passenger status. - The driver needs to calculate bus fare according to these 2, then give change to each passenger, while driving. - Paying by card is expensive for business due to high interchange fees SOLUTION: - Scan QR code for starting point - Validate if you're…",
-    "tracks": [
-      "Most Creative Gemini Hack",
-      "Best Use of Gemma"
-    ],
-    "projectLinks": [
-      "https://buspay.akdora-c.chatgpt.site/"
-    ],
-    "videoLinks": [
-      "https://youtu.be/c16_3CIOQbE"
-    ]
-  },
-  {
-    "id": 54,
-    "name": "SilverVoice",
-    "members": [],
-    "summary": "A hands-free, voice-first companion that turns simple spoken requests into clean, structured errand lists for caregivers. Github:",
+    "summary": "ANCHOR is a voice-first, caregiver-assisted memory practice app for people living with dementia. A caregiver uploads a photo of a familiar room, such as a bedroom, living room, or workspace. Gemini identifies visible objects and their locations, then the caregiver reviews and approves them. ANCHOR turns those verified details into six calm, room-specific activities that help the person rehearse object…",
     "tracks": [
       "Best Elderly Hack"
     ],
     "projectLinks": [
-      "https://silvervoice.ai.studio"
+      "https://github.com/Kk120306/gemini-hackathon"
     ],
     "videoLinks": [
-      "https://drive.google.com/file/d/1br6v6bCgEhxKKLiifxWoC8JI_3r57eGy/view?usp=sharing"
-    ]
+      "https://drive.google.com/file/d/1qJhKCYEoIoj32mk_gz4XNtv5YTKEKGel/view?usp=sharing"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 52,
+    "isFinalist": false
   },
   {
-    "id": 55,
-    "name": "Fittra Syaifullah",
-    "members": [
-      "Fittra Syaifullah"
-    ],
-    "summary": "How Disegno Works Disegno turns scattered design references, competitor products, inspiration boards, your own concept, into one visible map of the abstract qualities that actually differentiate them, then uses that same map to surface genuinely relevant cross-domain analogies. 1. Input You paste a handful of URLs or text references (competitor products, trend sources) along with a short description of your own…",
-    "tracks": [
-      "Best Use of Gemma",
-      "Most Creative Gemini Hack"
-    ],
-    "projectLinks": [
-      "https://disegno-jzedbi0tn-fittra-syaifullahs-projects.vercel.app/"
-    ],
-    "videoLinks": [
-      "https://drive.google.com/drive/folders/1jSe-k4VpLWv9nq9mp4zb35lT2J5dBB83?usp=sharing"
-    ]
-  },
-  {
-    "id": 56,
-    "name": "StitchCheck",
+    "id": 43,
+    "name": "87K Windows",
     "members": [],
-    "summary": "StitchCheck helps travellers audit separate-ticket flight itineraries before committing to a booking. A traveller uploads a flight screenshot, and Gemini 3.7 uses multimodal extraction to convert fragmented ticket information into structured, editable itinerary fields. The traveller can review and correct the extracted details—for example, changing flight SC-202 to SC-299—before explicitly confirming the…",
+    "summary": "87K Windows starts with a simple idea: older people carry a lifetime of stories, skills and knowledge, but often lack an easy way to share them with someone who would genuinely value them. The experience asks one gentle question and lets a participant speak or type a memory. Gemma turns it into a short, privacy-safe summary, which the participant can review and approve before anything is shared. A projected wall…",
     "tracks": [
-      "Most Creative Gemini Hack"
+      "Best Elderly Hack",
+      "Best Use of Gemma"
     ],
     "projectLinks": [
-      "https://github.com/yahgoo/StitchCheck"
+      "https://github.com/tanveerriaz/87k-windows"
     ],
     "videoLinks": [
-      "https://youtu.be/cw_cM3MXToU"
-    ]
+      "https://windows-87k-985493069617.asia-southeast1.run.app/"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "needs_update",
+      "reason": "server_error"
+    },
+    "publicId": 53,
+    "isFinalist": false
   },
   {
     "id": 57,
@@ -943,72 +1421,204 @@
     ],
     "videoLinks": [
       "https://shorturl.at/DJxUe"
-    ]
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "needs_update",
+      "reason": "shortener_blocked"
+    },
+    "publicId": 54,
+    "isFinalist": false
   },
   {
-    "id": 58,
-    "name": "VisionPath",
+    "id": 29,
+    "name": "Aldex",
+    "members": [
+      "Axell",
+      "Panda and his little sister - Red Panda"
+    ],
+    "summary": "Aldex started because my dad has brain cancer, and love is not a system. After the diagnosis, the days split in two. There is the person I know, and there is the work of keeping him safe: which pill was this morning, what the scan actually said, who is driving on Thursday, whether today is a clear day or a fog day. I was doing that work in my head, in notes, in texts to people who each held a different piece. My…",
+    "tracks": [
+      "Best Elderly Hack",
+      "Best Use of Gemma"
+    ],
+    "projectLinks": [
+      "https://github.com/yademy/Aldex"
+    ],
+    "videoLinks": [
+      "https://youtu.be/FAlLKinXCZY"
+    ],
+    "projectLinkAudit": {
+      "status": "needs_update",
+      "reason": "not_found"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 55,
+    "isFinalist": false
+  },
+  {
+    "id": 22,
+    "name": "Catch&Deco",
     "members": [],
-    "summary": "(Demo video is embedded in the project link in case of issue accessing the demo video link directly) :) “You are not old… until you are.” — VisionPath AI transforms everyday citizen fitness into a real-time assistive shield for our elders, combining crowdsourced civic incentives with sub-500ms Gemini 2.5 multimodal spatial AI. Building trusts of Active Citizens, and grow with them as a trustable tool they will…",
+    "summary": "When Pokemon Go meets Bondee: Catch items using Poké-inspired balls, then use them to decorate your own 3D room. A different way to imagine how your room would look like, and using one of Singapore's most popular games to add that gamified element.",
+    "tracks": [
+      "Most Creative Gemini Hack"
+    ],
+    "projectLinks": [
+      "https://github.com/daricewong/Catch-and-Deco"
+    ],
+    "videoLinks": [
+      "https://youtu.be/Bu70g4V9CpQ"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 56,
+    "isFinalist": false
+  },
+  {
+    "id": 39,
+    "name": "KakiCompanion AI",
+    "members": [],
+    "summary": "Github - Live URL - Simple Story -> A senior says: ‘I feel lonely today. Anyone want to lim kopi?’ KakiCompanion understands the Singlish, replies warmly, and creates a nearby kopi-chat invitation. Then the senior scans a suspicious letter, and Kaki explains the possible scam signs in simple language. We built KakiCompanion AI — Your Kampung AI Kaki, a voice-first and camera-enabled home companion for Singapore…",
+    "tracks": [
+      "Best Use of Gemma",
+      "Best Elderly Hack"
+    ],
+    "projectLinks": [
+      "https://kakicompanion-ai.ai.studio/"
+    ],
+    "videoLinks": [
+      "https://drive.google.com/file/d/1pH2svF2VgWquxMpRAA9yz3mLSZO8xb1t/view?usp=sharing"
+    ],
+    "projectLinkAudit": {
+      "status": "needs_update",
+      "reason": "server_error"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 57,
+    "isFinalist": false
+  },
+  {
+    "id": 27,
+    "name": "Retro TV",
+    "members": [],
+    "summary": "Retro TV lets older adults and their families tune into Singapore’s past together to make browsing an intergenerational bonding experience instead of just another individual doomscrolling exercise. Families get to channel-surf through TV, music, cinema, home life, food and places based on the different years of Singapore's past, using an interface itself inspired by the television and Teletext screens older…",
     "tracks": [
       "Best Elderly Hack",
       "Most Creative Gemini Hack"
     ],
     "projectLinks": [
-      "https://ai.studio/apps/75c5feff-56c0-4b4b-a9b9-d2df31976c60"
+      "https://github.com/papermelon/retro-tv"
     ],
     "videoLinks": [
-      "https://ais-dev-jgzgtl3oq3q2m7lhwvfug4-670795800840.asia-southeast1.run.app/?demo=1"
-    ]
+      "https://drive.google.com/drive/folders/1iL18kTo4Kjn0iYSE9oUxBRzIOfgMnFw5?usp=sharing"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 58,
+    "isFinalist": false
   },
   {
-    "id": 59,
-    "name": "SuperApp",
+    "id": 35,
+    "name": "KopiKakis",
     "members": [
-      "Shubh Kumar"
+      "Vincent Ong",
+      "Kalent Chia"
     ],
-    "summary": "The video is on github, Demo.mp4",
-    "tracks": [
-      "Best Use of Gemma",
-      "Most Creative Gemini Hack"
-    ],
-    "projectLinks": [
-      "https://github.com/thevaliantthird/SuperApp.git"
-    ],
-    "videoLinks": [
-      "https://github.com/thevaliantthird/SuperApp.git"
-    ]
-  },
-  {
-    "id": 60,
-    "name": "Muning",
-    "members": [
-      "SEE WI JIE"
-    ],
-    "summary": "A proactive check-in agent for elderlies (the videl submission could not load)",
+    "summary": "KopiKaki is a voice-first AI social concierge powered by Gemini that lets seniors simply talk to an agent, get matched with a compatible kaki, and turn a phone call into a real-world meetup.",
     "tracks": [
       "Best Elderly Hack"
     ],
     "projectLinks": [
-      "https://github.com/spacerac00n/Muning_gemini_hackathon"
+      "https://github.com/gabriel-wan/kopikaki"
     ],
     "videoLinks": [
-      "https://github.com/spacerac00n/Muning_gemini_hackathon"
-    ]
+      "https://drive.google.com/file/d/1-zf7SHbo8J8qUpZ0KvmTMBFkSL9yxHYS/view?usp=sharing"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 59,
+    "isFinalist": false
   },
   {
-    "id": 61,
-    "name": "Pushkar's Solo Team",
+    "id": 52,
+    "name": "Memento",
     "members": [],
-    "summary": "I built a tool for experimental scientists to build bespoke reinforcement learning environments to train their local models to handle the tedious parts of running an experiment (like making sure all components are working, the data is free from noise and 100x other things that go into running an experiment). The project uses Gemma for scientist to help build the environment and the also fine tune an agent to do a…",
+    "summary": "An assistive recording and cognitive anchoring tool for seniors with memory loss, featuring real-time context anchoring, sensory carousels, and tamper-proof legal verification.",
     "tracks": [
-      "Best Use of Gemma"
+      "Best Elderly Hack",
+      "Most Creative Gemini Hack"
     ],
     "projectLinks": [
-      "https://github.com/pushkarsingh019/environment_for_science"
+      "https://usememento.ai.studio/"
     ],
     "videoLinks": [
-      "https://github.com/pushkarsingh019/environment_for_science"
-    ]
+      "https://drive.google.com/drive/folders/1jscQ_qVEEOfziY8jE9duEEpnd1o4oWqY?usp=sharing"
+    ],
+    "projectLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 60,
+    "isFinalist": false
+  },
+  {
+    "id": 18,
+    "name": "Treasures Bowl",
+    "members": [
+      "Deepika Rudra Murthy"
+    ],
+    "summary": "By 2030, 1 in 6 people globally will be aged 60+. While our elders hold irreplaceable living history and wisdom, traditional storytelling and oral history apps fail them—acting like robotic interrogators with text-heavy screens, small fonts, and unnatural AI voices that break human intimacy. Treasures Bowl 聚寶盆 is an empathetic, voice-first intergenerational storytelling companion on a single shared tablet for an…",
+    "tracks": [
+      "Best Elderly Hack",
+      "Most Creative Gemini Hack"
+    ],
+    "projectLinks": [
+      "https://github.com/Rajat-Goyal/treasures-bowl"
+    ],
+    "videoLinks": [
+      "https://supercut.ai/share/thebuildercourse/nJ2Nr9llhG1S3IZ9HJnBi2"
+    ],
+    "projectLinkAudit": {
+      "status": "needs_update",
+      "reason": "not_found"
+    },
+    "videoLinkAudit": {
+      "status": "complete",
+      "reason": "ok"
+    },
+    "publicId": 61,
+    "isFinalist": false
   }
 ]

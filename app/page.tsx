@@ -1,5 +1,33 @@
+import Image from "next/image";
 import submissions from "../data/submissions.json";
 import { ProjectGallery, type Submission } from "./project-gallery";
+
+const tracks = [
+  {
+    number: "01",
+    name: "Best Use of Gemma",
+    focus: "Open models, pushed further",
+    description: "Push an open model somewhere thoughtful, useful, or technically surprising.",
+    prompts: ["Run privately or at the edge", "Adapt the model for a specific community", "Make openness essential to the product"],
+    color: "blue",
+  },
+  {
+    number: "02",
+    name: "Best Elderly Hack",
+    focus: "Silver AI — Designing Gemini for Seniors",
+    description: "Make modern technology easier for older adults to use, trust, and stay connected through.",
+    prompts: ["Reduce cognitive and interaction load", "Design for trust and dignity", "Build for real-world care"],
+    color: "red",
+  },
+  {
+    number: "03",
+    name: "Most Creative Gemini Hack",
+    focus: "The unexpected use of Gemini Flash 3.7",
+    description: "Build the wildest, fastest, or most original use of Gemini Flash 3.7.",
+    prompts: ["Make model behavior visible", "Create a memorable live moment", "Turn speed into an advantage"],
+    color: "yellow",
+  },
+] as const;
 
 const winners = [
   { award: "Best Use of Gemma", project: "Gemma Companion", color: "blue", prize: "US$1,000" },
@@ -8,120 +36,125 @@ const winners = [
   { award: "Honorable Mention", project: "Sentry", color: "green", prize: "Recognition" },
 ] as const;
 
-function Spark({ className = "" }: { className?: string }) {
+const photos = [
+  { src: "/photos/audience.jpg", alt: "Hackathon builders seated together for an event presentation", caption: "The room comes together" },
+  { src: "/photos/build-room.jpg", alt: "Teams working on laptops around a busy hackathon room", caption: "The build in full swing" },
+  { src: "/photos/builders.jpg", alt: "Two smiling hackathon builders sitting beside their laptops", caption: "Builders between sprints" },
+  { src: "/photos/lunch.jpg", alt: "Hackathon participants collecting lunch at an outdoor buffet", caption: "A well-timed refuel" },
+] as const;
+
+function GeminiMark({ className = "" }: { className?: string }) {
   return (
-    <svg className={className} viewBox="0 0 28 28" aria-hidden="true">
-      <path d="M14 1.8c1.3 6.7 5.5 10.9 12.2 12.2C19.5 15.3 15.3 19.5 14 26.2 12.7 19.5 8.5 15.3 1.8 14 8.5 12.7 12.7 8.5 14 1.8Z" fill="currentColor" />
+    <svg className={className} viewBox="0 0 32 32" aria-hidden="true">
+      <defs>
+        <linearGradient id="gemini-gradient" x1="4" y1="28" x2="29" y2="4" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#4285F4" />
+          <stop offset=".48" stopColor="#9B72CB" />
+          <stop offset="1" stopColor="#D96570" />
+        </linearGradient>
+      </defs>
+      <path d="M16 2.5c1.5 7.4 6.1 12 13.5 13.5C22.1 17.5 17.5 22.1 16 29.5 14.5 22.1 9.9 17.5 2.5 16 9.9 14.5 14.5 9.9 16 2.5Z" fill="url(#gemini-gradient)" />
     </svg>
   );
 }
 
 function Arrow() {
-  return (
-    <svg viewBox="0 0 20 20" aria-hidden="true">
-      <path d="M4 10h11M11 5l5 5-5 5" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
+  return <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" /></svg>;
 }
 
 export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Build with Gemini recap home">
-          <Spark className="brand-spark" />
-          <span>Build with Gemini</span>
-        </a>
+        <a className="brand" href="#top" aria-label="Build with Gemini recap home"><GeminiMark /><span>Gemini</span></a>
         <nav aria-label="Primary navigation">
+          <a href="#tracks">Tracks</a>
           <a href="#winners">Winners</a>
-          <a href="#gallery">61 builds</a>
           <a href="#photos">Photos</a>
+          <a href="#gallery">Builds</a>
         </nav>
       </header>
 
       <section className="hero" id="top">
-        <div className="hero-copy">
-          <h1><span>61 builds.</span> One day.</h1>
-          <p className="hero-dek">
-            One room, three prize tracks, and a field of experiments spanning on-device intelligence,
-            elder-first technology, games, memory, safety, and delight.
-          </p>
+        <div className="hero-lockup"><GeminiMark /><span>Build with Gemini Hackathon 2026</span></div>
+        <h1>61 builds.<br /><span>One remarkable day.</span></h1>
+        <div className="hero-lower">
+          <p>Builders brought Gemini and Gemma into open models, elder-first technology, creative tools, games, safety, memory, and delight.</p>
           <a className="primary-link" href="#gallery">Explore every build <Arrow /></a>
-          <p className="date-line">22 August 2026 · Singapore</p>
         </div>
-        <div className="field-index" aria-label="Event summary">
-          <div className="orbit orbit-one" />
-          <div className="orbit orbit-two" />
-          <Spark className="hero-spark" />
-          <div className="index-note note-a"><strong>61</strong><span>submissions</span></div>
-          <div className="index-note note-b"><strong>3</strong><span>prize tracks</span></div>
-          <div className="index-note note-c"><strong>1</strong><span>build day</span></div>
-          <span className="coordinate coordinate-a">01°18&apos;N</span>
-          <span className="coordinate coordinate-b">103°47&apos;E</span>
-        </div>
-        <div className="scroll-cue">Scroll through the field record <span /></div>
-      </section>
-
-      <section className="recap-intro" aria-labelledby="recap-title">
-        <div>
-          <h2 id="recap-title">A room full of unfinished ideas became working software.</h2>
-          <p>
-            Builders arrived at Lorong AI in the morning and shipped by 3:30 pm. The submissions
-            below are the public trail they left behind: repositories, demos, and short accounts of
-            what each team chose to make with Gemini and Gemma.
-          </p>
-        </div>
-        <div className="event-facts" aria-label="Event facts">
-          <span>8:30 am</span><small>doors open</small>
-          <span>3:30 pm</span><small>builds due</small>
-          <span>6:00 pm</span><small>day closes</small>
+        <div className="hero-facts" aria-label="Event summary">
+          <div><strong>22 Aug 2026</strong><span>Saturday</span></div>
+          <div><strong>Lorong AI</strong><span>Singapore</span></div>
+          <div><strong>61</strong><span>submissions</span></div>
+          <div><strong>3</strong><span>prize tracks</span></div>
         </div>
       </section>
 
-      <section className="photo-ledger" id="photos" aria-labelledby="photos-title">
-        <div className="photo-heading">
-          <h2 id="photos-title">The day, waiting to be developed.</h2>
-          <p>Four composed photo slots are ready for the event album. Replace each placeholder later without changing the layout.</p>
+      <section className="tracks-section" id="tracks" aria-labelledby="tracks-title">
+        <div className="section-heading split-heading">
+          <h2 id="tracks-title">Three tracks.<br />Three ways to push further.</h2>
+          <p>Each winning track awarded US$1,000. Projects could enter up to two tracks.</p>
         </div>
-        <div className="photo-grid">
-          {["Opening the room", "Deep in the build", "Demo hour", "The final frame"].map((label, index) => (
-            <figure className={`photo-slot photo-${index + 1}`} key={label}>
-              <div className="photo-cross" aria-hidden="true" />
-              <figcaption><span>Photo {String(index + 1).padStart(2, "0")}</span>{label}</figcaption>
-            </figure>
-          ))}
-        </div>
-      </section>
-
-      <section className="winners" id="winners" aria-labelledby="winners-title">
-        <div className="section-heading">
-          <h2 id="winners-title">The winning builds</h2>
-        </div>
-        <div className="winner-list">
-          {winners.map((winner, index) => (
-            <article className={`winner-row winner-${winner.color}`} key={winner.award}>
-              <span className="winner-index">{String(index + 1).padStart(2, "0")}</span>
-              <div>
-                <p>{winner.award}</p>
-                <h3>{winner.project}</h3>
+        <div className="track-stack">
+          {tracks.map((track) => (
+            <article className={`track-panel track-${track.color}`} key={track.name}>
+              <div className="track-number">Track {track.number} · US$1,000</div>
+              <div className="track-copy">
+                <h3>{track.name}</h3>
+                <strong>{track.focus}</strong>
+                <p>{track.description}</p>
               </div>
-              <strong>{winner.prize}</strong>
-              <span className="award-stamp"><Spark />Awarded</span>
+              <div className="track-prompts">
+                {track.prompts.map((prompt) => <span key={prompt}>{prompt}</span>)}
+              </div>
             </article>
           ))}
         </div>
       </section>
 
+      <section className="winners" id="winners" aria-labelledby="winners-title">
+        <div className="section-heading split-heading">
+          <h2 id="winners-title">The winning builds</h2>
+          <p>Three track winners and one project recognized with an honorable mention.</p>
+        </div>
+        <div className="winner-list">
+          {winners.map((winner, index) => (
+            <article className={`winner-row winner-${winner.color}`} key={winner.award}>
+              <span>{String(index + 1).padStart(2, "0")}</span>
+              <div><p>{winner.award}</p><h3>{winner.project}</h3></div>
+              <strong>{winner.prize}</strong>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="photos" id="photos" aria-labelledby="photos-title">
+        <div className="section-heading split-heading">
+          <h2 id="photos-title">Saturday,<br />in the room.</h2>
+          <p>Four frames from the day—from the first briefing to the concentrated middle of the build.</p>
+        </div>
+        <div className="photo-grid">
+          {photos.map((photo, index) => (
+            <figure className={`photo photo-${index + 1}`} key={photo.src}>
+              <Image src={photo.src} alt={photo.alt} fill preload={index === 0} sizes={index === 0 ? "(max-width: 760px) 100vw, 66vw" : "(max-width: 760px) 100vw, 34vw"} />
+              <figcaption><span>Photo {String(index + 1).padStart(2, "0")}</span>{photo.caption}</figcaption>
+            </figure>
+          ))}
+        </div>
+        <a className="album-link" href="https://pics.65labs.org/albums/7146eebc-7b75-430e-b854-da18ca66046c" target="_blank" rel="noreferrer">View the full Saturday album <Arrow /><span className="sr-only"> (opens in new tab)</span></a>
+      </section>
+
       <section className="gallery-section" id="gallery" aria-labelledby="gallery-title">
-        <div className="section-heading gallery-heading">
-          <h2 id="gallery-title">The full build index</h2>
+        <div className="section-heading split-heading">
+          <h2 id="gallery-title">Every build,<br />ready to explore.</h2>
+          <p>The seven finalists lead the index. Every other submission is shown in a stable shuffled order so the preliminary ranking cannot be inferred. Links marked “needs update” were not public-ready when checked on 24 August 2026.</p>
         </div>
         <ProjectGallery submissions={submissions as Submission[]} />
       </section>
 
       <footer>
-        <div><Spark className="footer-spark" /><strong>Build with Gemini Hackathon 2026</strong></div>
-        <p>Built by the Singapore AI builder community · 65Labs</p>
+        <div><GeminiMark /><strong>Build with Gemini Hackathon 2026</strong></div>
+        <p>Singapore · 65Labs</p>
         <a href="#top">Back to top <Arrow /></a>
       </footer>
     </main>
