@@ -1,11 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": "data/submissions.json",
-  "thumbnailProvider": "YouTube i.ytimg.com hqdefault",
+  "thumbnailProvider": "YouTube i.ytimg.com hqdefault plus locally archived public project previews",
   "counts": {
     "submissions": 61,
     "youtubeThumbnails": 20,
-    "generatedFallbacks": 41
+    "projectPreviews": 30,
+    "generatedFallbacks": 11
   },
   "assets": [
     {
@@ -17,13 +18,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/kQETbhTSTjQ/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/kQETbhTSTjQ",
         "videoId": "kQETbhTSTjQ",
+        "label": "From the demo",
         "alt": "Video thumbnail for OrcAIPlay",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-green",
           "monogram": "O",
           "seed": "build-with-gemini-2026:1:OrcAIPlay",
-          "alt": "Graphic placeholder for OrcAIPlay"
+          "alt": "Build poster for OrcAIPlay"
         }
       }
     },
@@ -36,13 +38,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/d9vIyrbXu2Y/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/d9vIyrbXu2Y?si=fB3n2A3UZRLZz5iJ",
         "videoId": "d9vIyrbXu2Y",
+        "label": "From the demo",
         "alt": "Video thumbnail for Project Rehab",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-green",
           "monogram": "P",
           "seed": "build-with-gemini-2026:2:Project Rehab",
-          "alt": "Graphic placeholder for Project Rehab"
+          "alt": "Build poster for Project Rehab"
         }
       }
     },
@@ -51,11 +54,18 @@
       "publicId": 3,
       "name": "Gemma Companion",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-blue",
-        "monogram": "G",
-        "seed": "build-with-gemini-2026:3:Gemma Companion",
-        "alt": "Graphic placeholder for Gemma Companion"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/3.png",
+        "sourceUrl": "https://github.com/ilhamfp/GemmaCompanion",
+        "label": "Project preview",
+        "alt": "Public project preview for Gemma Companion",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-blue",
+          "monogram": "G",
+          "seed": "build-with-gemini-2026:3:Gemma Companion",
+          "alt": "Build poster for Gemma Companion"
+        }
       }
     },
     {
@@ -63,11 +73,18 @@
       "publicId": 4,
       "name": "familiar",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-green",
-        "monogram": "F",
-        "seed": "build-with-gemini-2026:4:familiar",
-        "alt": "Graphic placeholder for familiar"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/4.png",
+        "sourceUrl": "https://images.rachit.ai/gemini-hackathon-2026.mp4",
+        "label": "From the demo",
+        "alt": "Frame from the submitted demo for familiar",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "F",
+          "seed": "build-with-gemini-2026:4:familiar",
+          "alt": "Build poster for familiar"
+        }
       }
     },
     {
@@ -79,13 +96,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/XPuSCc3LHPw/hqdefault.jpg",
         "sourceUrl": "https://www.youtube.com/watch?v=XPuSCc3LHPw",
         "videoId": "XPuSCc3LHPw",
+        "label": "From the demo",
         "alt": "Video thumbnail for The Heirloom",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-green",
           "monogram": "T",
           "seed": "build-with-gemini-2026:5:The Heirloom",
-          "alt": "Graphic placeholder for The Heirloom"
+          "alt": "Build poster for The Heirloom"
         }
       }
     },
@@ -98,13 +116,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/6OVWTR_LxEU/hqdefault.jpg",
         "sourceUrl": "https://youtube.com/shorts/6OVWTR_LxEU",
         "videoId": "6OVWTR_LxEU",
+        "label": "From the demo",
         "alt": "Video thumbnail for Remember AI",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-green",
           "monogram": "R",
           "seed": "build-with-gemini-2026:6:Remember AI",
-          "alt": "Graphic placeholder for Remember AI"
+          "alt": "Build poster for Remember AI"
         }
       }
     },
@@ -117,13 +136,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/EPVuUo8N1JE/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/EPVuUo8N1JE",
         "videoId": "EPVuUo8N1JE",
+        "label": "From the demo",
         "alt": "Video thumbnail for Sentry",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-green",
           "monogram": "S",
           "seed": "build-with-gemini-2026:13:Sentry",
-          "alt": "Graphic placeholder for Sentry"
+          "alt": "Build poster for Sentry"
         }
       }
     },
@@ -132,11 +152,18 @@
       "publicId": 8,
       "name": "SAFEstep",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-red",
-        "monogram": "S",
-        "seed": "build-with-gemini-2026:17:SAFEstep",
-        "alt": "Graphic placeholder for SAFEstep"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/17.png",
+        "sourceUrl": "https://github.com/dqv12908/SAFEstep",
+        "label": "Project preview",
+        "alt": "Public project preview for SAFEstep",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-red",
+          "monogram": "S",
+          "seed": "build-with-gemini-2026:17:SAFEstep",
+          "alt": "Build poster for SAFEstep"
+        }
       }
     },
     {
@@ -144,11 +171,18 @@
       "publicId": 9,
       "name": "SuperApp",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-blue",
-        "monogram": "S",
-        "seed": "build-with-gemini-2026:59:SuperApp",
-        "alt": "Graphic placeholder for SuperApp"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/59.png",
+        "sourceUrl": "https://github.com/thevaliantthird/SuperApp.git",
+        "label": "Project preview",
+        "alt": "Public project preview for SuperApp",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-blue",
+          "monogram": "S",
+          "seed": "build-with-gemini-2026:59:SuperApp",
+          "alt": "Build poster for SuperApp"
+        }
       }
     },
     {
@@ -156,11 +190,18 @@
       "publicId": 10,
       "name": "AskFirst",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-green",
-        "monogram": "A",
-        "seed": "build-with-gemini-2026:46:AskFirst",
-        "alt": "Graphic placeholder for AskFirst"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/46.png",
+        "sourceUrl": "https://github.com/kayabuttertoastt/silverscamshield",
+        "label": "Project preview",
+        "alt": "Public project preview for AskFirst",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "A",
+          "seed": "build-with-gemini-2026:46:AskFirst",
+          "alt": "Build poster for AskFirst"
+        }
       }
     },
     {
@@ -172,7 +213,7 @@
         "palette": "gemini-blue",
         "monogram": "F",
         "seed": "build-with-gemini-2026:55:Fittra Syaifullah",
-        "alt": "Graphic placeholder for Fittra Syaifullah"
+        "alt": "Build poster for Fittra Syaifullah"
       }
     },
     {
@@ -184,7 +225,7 @@
         "palette": "gemini-red",
         "monogram": "W",
         "seed": "build-with-gemini-2026:16:Whimsy Heist",
-        "alt": "Graphic placeholder for Whimsy Heist"
+        "alt": "Build poster for Whimsy Heist"
       }
     },
     {
@@ -196,13 +237,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/IotSFB2k7CY/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/IotSFB2k7CY",
         "videoId": "IotSFB2k7CY",
+        "label": "From the demo",
         "alt": "Video thumbnail for Life Moments",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-red",
           "monogram": "L",
           "seed": "build-with-gemini-2026:11:Life Moments",
-          "alt": "Graphic placeholder for Life Moments"
+          "alt": "Build poster for Life Moments"
         }
       }
     },
@@ -215,7 +257,7 @@
         "palette": "gemini-red",
         "monogram": "R",
         "seed": "build-with-gemini-2026:48:RememberUs",
-        "alt": "Graphic placeholder for RememberUs"
+        "alt": "Build poster for RememberUs"
       }
     },
     {
@@ -223,11 +265,18 @@
       "publicId": 15,
       "name": "Potluck",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-blue",
-        "monogram": "P",
-        "seed": "build-with-gemini-2026:44:Potluck",
-        "alt": "Graphic placeholder for Potluck"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/44.png",
+        "sourceUrl": "https://github.com/mistypotluck/say-some-more/",
+        "label": "Project preview",
+        "alt": "Public project preview for Potluck",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-blue",
+          "monogram": "P",
+          "seed": "build-with-gemini-2026:44:Potluck",
+          "alt": "Build poster for Potluck"
+        }
       }
     },
     {
@@ -239,13 +288,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/cw_cM3MXToU/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/cw_cM3MXToU",
         "videoId": "cw_cM3MXToU",
+        "label": "From the demo",
         "alt": "Video thumbnail for StitchCheck",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-yellow",
           "monogram": "S",
           "seed": "build-with-gemini-2026:56:StitchCheck",
-          "alt": "Graphic placeholder for StitchCheck"
+          "alt": "Build poster for StitchCheck"
         }
       }
     },
@@ -254,11 +304,18 @@
       "publicId": 17,
       "name": "Ah Ma Line",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-blue",
-        "monogram": "A",
-        "seed": "build-with-gemini-2026:23:Ah Ma Line",
-        "alt": "Graphic placeholder for Ah Ma Line"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/23.png",
+        "sourceUrl": "https://github.com/bhargav1000/Ah-Ma-Line",
+        "label": "Project preview",
+        "alt": "Public project preview for Ah Ma Line",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-blue",
+          "monogram": "A",
+          "seed": "build-with-gemini-2026:23:Ah Ma Line",
+          "alt": "Build poster for Ah Ma Line"
+        }
       }
     },
     {
@@ -266,11 +323,18 @@
       "publicId": 18,
       "name": "CyberTriage",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-blue",
-        "monogram": "C",
-        "seed": "build-with-gemini-2026:41:CyberTriage",
-        "alt": "Graphic placeholder for CyberTriage"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/41.png",
+        "sourceUrl": "https://github.com/CheahHaoYi/AIsploitable",
+        "label": "Project preview",
+        "alt": "Public project preview for CyberTriage",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-blue",
+          "monogram": "C",
+          "seed": "build-with-gemini-2026:41:CyberTriage",
+          "alt": "Build poster for CyberTriage"
+        }
       }
     },
     {
@@ -282,13 +346,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/0rx0SixMkak/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/0rx0SixMkak",
         "videoId": "0rx0SixMkak",
+        "label": "From the demo",
         "alt": "Video thumbnail for Anchor",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-green",
           "monogram": "A",
           "seed": "build-with-gemini-2026:37:Anchor",
-          "alt": "Graphic placeholder for Anchor"
+          "alt": "Build poster for Anchor"
         }
       }
     },
@@ -297,11 +362,18 @@
       "publicId": 20,
       "name": "trade-gemma",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-green",
-        "monogram": "T",
-        "seed": "build-with-gemini-2026:7:trade-gemma",
-        "alt": "Graphic placeholder for trade-gemma"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/7.png",
+        "sourceUrl": "https://github.com/sudarshan2401/trade-gemma",
+        "label": "Project preview",
+        "alt": "Public project preview for trade-gemma",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "T",
+          "seed": "build-with-gemini-2026:7:trade-gemma",
+          "alt": "Build poster for trade-gemma"
+        }
       }
     },
     {
@@ -309,11 +381,18 @@
       "publicId": 21,
       "name": "Medication Reminder",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-green",
-        "monogram": "M",
-        "seed": "build-with-gemini-2026:42:Medication Reminder",
-        "alt": "Graphic placeholder for Medication Reminder"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/42.png",
+        "sourceUrl": "https://github.com/melvinlo11/Medication.git",
+        "label": "Project preview",
+        "alt": "Public project preview for Medication Reminder",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "M",
+          "seed": "build-with-gemini-2026:42:Medication Reminder",
+          "alt": "Build poster for Medication Reminder"
+        }
       }
     },
     {
@@ -325,7 +404,7 @@
         "palette": "gemini-yellow",
         "monogram": "K",
         "seed": "build-with-gemini-2026:19:KakiCompanion AI",
-        "alt": "Graphic placeholder for KakiCompanion AI"
+        "alt": "Build poster for KakiCompanion AI"
       }
     },
     {
@@ -333,11 +412,18 @@
       "publicId": 23,
       "name": "swarm defence",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-green",
-        "monogram": "S",
-        "seed": "build-with-gemini-2026:9:swarm defence",
-        "alt": "Graphic placeholder for swarm defence"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/9.png",
+        "sourceUrl": "https://github.com/tjh87/swarm-defence",
+        "label": "Project preview",
+        "alt": "Public project preview for swarm defence",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "S",
+          "seed": "build-with-gemini-2026:9:swarm defence",
+          "alt": "Build poster for swarm defence"
+        }
       }
     },
     {
@@ -345,11 +431,18 @@
       "publicId": 24,
       "name": "Pushkar's Solo Team",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-red",
-        "monogram": "P",
-        "seed": "build-with-gemini-2026:61:Pushkar's Solo Team",
-        "alt": "Graphic placeholder for Pushkar's Solo Team"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/61.png",
+        "sourceUrl": "https://github.com/pushkarsingh019/environment_for_science",
+        "label": "Project preview",
+        "alt": "Public project preview for Pushkar's Solo Team",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-red",
+          "monogram": "P",
+          "seed": "build-with-gemini-2026:61:Pushkar's Solo Team",
+          "alt": "Build poster for Pushkar's Solo Team"
+        }
       }
     },
     {
@@ -357,11 +450,18 @@
       "publicId": 25,
       "name": "Vision path II",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-green",
-        "monogram": "V",
-        "seed": "build-with-gemini-2026:20:Vision path II",
-        "alt": "Graphic placeholder for Vision path II"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/20.png",
+        "sourceUrl": "https://github.com/janeoyy/VisionPath",
+        "label": "Project preview",
+        "alt": "Public project preview for Vision path II",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "V",
+          "seed": "build-with-gemini-2026:20:Vision path II",
+          "alt": "Build poster for Vision path II"
+        }
       }
     },
     {
@@ -373,7 +473,7 @@
         "palette": "gemini-yellow",
         "monogram": "M",
         "seed": "build-with-gemini-2026:15:Memory Bridge",
-        "alt": "Graphic placeholder for Memory Bridge"
+        "alt": "Build poster for Memory Bridge"
       }
     },
     {
@@ -381,11 +481,18 @@
       "publicId": 27,
       "name": "PetPat Call",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-blue",
-        "monogram": "P",
-        "seed": "build-with-gemini-2026:40:PetPat Call",
-        "alt": "Graphic placeholder for PetPat Call"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/40.png",
+        "sourceUrl": "https://github.com/estherwyl/petpat-call",
+        "label": "Project preview",
+        "alt": "Public project preview for PetPat Call",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-blue",
+          "monogram": "P",
+          "seed": "build-with-gemini-2026:40:PetPat Call",
+          "alt": "Build poster for PetPat Call"
+        }
       }
     },
     {
@@ -397,13 +504,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/c16_3CIOQbE/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/c16_3CIOQbE",
         "videoId": "c16_3CIOQbE",
+        "label": "From the demo",
         "alt": "Video thumbnail for BusPay",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-blue",
           "monogram": "B",
           "seed": "build-with-gemini-2026:53:BusPay",
-          "alt": "Graphic placeholder for BusPay"
+          "alt": "Build poster for BusPay"
         }
       }
     },
@@ -412,11 +520,18 @@
       "publicId": 29,
       "name": "Parking My Thoughts",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-green",
-        "monogram": "P",
-        "seed": "build-with-gemini-2026:50:Parking My Thoughts",
-        "alt": "Graphic placeholder for Parking My Thoughts"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/50.png",
+        "sourceUrl": "https://github.com/TWO-MIX/Parking-My-Thoughts-2",
+        "label": "Project preview",
+        "alt": "Public project preview for Parking My Thoughts",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "P",
+          "seed": "build-with-gemini-2026:50:Parking My Thoughts",
+          "alt": "Build poster for Parking My Thoughts"
+        }
       }
     },
     {
@@ -424,11 +539,18 @@
       "publicId": 30,
       "name": "Tandem",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-yellow",
-        "monogram": "T",
-        "seed": "build-with-gemini-2026:21:Tandem",
-        "alt": "Graphic placeholder for Tandem"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/21.png",
+        "sourceUrl": "https://github.com/minthawtar/Runtime-Terrors-V4",
+        "label": "Project preview",
+        "alt": "Public project preview for Tandem",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-yellow",
+          "monogram": "T",
+          "seed": "build-with-gemini-2026:21:Tandem",
+          "alt": "Build poster for Tandem"
+        }
       }
     },
     {
@@ -440,7 +562,7 @@
         "palette": "gemini-green",
         "monogram": "S",
         "seed": "build-with-gemini-2026:30:Swarm Defence",
-        "alt": "Graphic placeholder for Swarm Defence"
+        "alt": "Build poster for Swarm Defence"
       }
     },
     {
@@ -452,13 +574,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/N3_-AX6l_Cs/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/N3_-AX6l_Cs",
         "videoId": "N3_-AX6l_Cs",
+        "label": "From the demo",
         "alt": "Video thumbnail for Kai",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-red",
           "monogram": "K",
           "seed": "build-with-gemini-2026:8:Kai",
-          "alt": "Graphic placeholder for Kai"
+          "alt": "Build poster for Kai"
         }
       }
     },
@@ -467,11 +590,18 @@
       "publicId": 33,
       "name": "smalltalk",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-blue",
-        "monogram": "S",
-        "seed": "build-with-gemini-2026:25:smalltalk",
-        "alt": "Graphic placeholder for smalltalk"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/25.png",
+        "sourceUrl": "https://github.com/fadnavismehul/smalltalk/tree/main",
+        "label": "Project preview",
+        "alt": "Public project preview for smalltalk",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-blue",
+          "monogram": "S",
+          "seed": "build-with-gemini-2026:25:smalltalk",
+          "alt": "Build poster for smalltalk"
+        }
       }
     },
     {
@@ -483,13 +613,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/6O1hRZfvt5k/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/6O1hRZfvt5k",
         "videoId": "6O1hRZfvt5k",
+        "label": "From the demo",
         "alt": "Video thumbnail for looplist",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-red",
           "monogram": "L",
           "seed": "build-with-gemini-2026:10:looplist",
-          "alt": "Graphic placeholder for looplist"
+          "alt": "Build poster for looplist"
         }
       }
     },
@@ -498,11 +629,18 @@
       "publicId": 35,
       "name": "Co-Presenter",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-green",
-        "monogram": "C",
-        "seed": "build-with-gemini-2026:31:Co-Presenter",
-        "alt": "Graphic placeholder for Co-Presenter"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/31.png",
+        "sourceUrl": "https://github.com/philippliebold/gemini_hackathon",
+        "label": "Project preview",
+        "alt": "Public project preview for Co-Presenter",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "C",
+          "seed": "build-with-gemini-2026:31:Co-Presenter",
+          "alt": "Build poster for Co-Presenter"
+        }
       }
     },
     {
@@ -514,13 +652,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/mwiFwBRrhXo/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/mwiFwBRrhXo",
         "videoId": "mwiFwBRrhXo",
+        "label": "From the demo",
         "alt": "Video thumbnail for GUESSLIGHT",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-green",
           "monogram": "G",
           "seed": "build-with-gemini-2026:24:GUESSLIGHT",
-          "alt": "Graphic placeholder for GUESSLIGHT"
+          "alt": "Build poster for GUESSLIGHT"
         }
       }
     },
@@ -529,11 +668,18 @@
       "publicId": 37,
       "name": "Sunday",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-red",
-        "monogram": "S",
-        "seed": "build-with-gemini-2026:12:Sunday",
-        "alt": "Graphic placeholder for Sunday"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/12.png",
+        "sourceUrl": "https://github.com/Delva2305/Sunday.git",
+        "label": "Project preview",
+        "alt": "Public project preview for Sunday",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-red",
+          "monogram": "S",
+          "seed": "build-with-gemini-2026:12:Sunday",
+          "alt": "Build poster for Sunday"
+        }
       }
     },
     {
@@ -545,13 +691,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/I0-GH1-ecH4/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/I0-GH1-ecH4",
         "videoId": "I0-GH1-ecH4",
+        "label": "From the demo",
         "alt": "Video thumbnail for Team MUSE",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-green",
           "monogram": "T",
           "seed": "build-with-gemini-2026:33:Team MUSE",
-          "alt": "Graphic placeholder for Team MUSE"
+          "alt": "Build poster for Team MUSE"
         }
       }
     },
@@ -564,7 +711,7 @@
         "palette": "gemini-yellow",
         "monogram": "S",
         "seed": "build-with-gemini-2026:54:SilverVoice",
-        "alt": "Graphic placeholder for SilverVoice"
+        "alt": "Build poster for SilverVoice"
       }
     },
     {
@@ -576,13 +723,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/p-0w7GhHzFo/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/p-0w7GhHzFo",
         "videoId": "p-0w7GhHzFo",
+        "label": "From the demo",
         "alt": "Video thumbnail for WN",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-red",
           "monogram": "W",
           "seed": "build-with-gemini-2026:51:WN",
-          "alt": "Graphic placeholder for WN"
+          "alt": "Build poster for WN"
         }
       }
     },
@@ -595,13 +743,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/3yEqXEgvy5Y/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/3yEqXEgvy5Y",
         "videoId": "3yEqXEgvy5Y",
+        "label": "From the demo",
         "alt": "Video thumbnail for Yuban",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-blue",
           "monogram": "Y",
           "seed": "build-with-gemini-2026:14:Yuban",
-          "alt": "Graphic placeholder for Yuban"
+          "alt": "Build poster for Yuban"
         }
       }
     },
@@ -610,11 +759,18 @@
       "publicId": 42,
       "name": "The Silver Foxes",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-yellow",
-        "monogram": "T",
-        "seed": "build-with-gemini-2026:45:The Silver Foxes",
-        "alt": "Graphic placeholder for The Silver Foxes"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/45.png",
+        "sourceUrl": "https://github.com/OnnoKampman/gemma-hackathon",
+        "label": "Project preview",
+        "alt": "Public project preview for The Silver Foxes",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-yellow",
+          "monogram": "T",
+          "seed": "build-with-gemini-2026:45:The Silver Foxes",
+          "alt": "Build poster for The Silver Foxes"
+        }
       }
     },
     {
@@ -622,11 +778,18 @@
       "publicId": 43,
       "name": "Diffusion Enjoyers",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-green",
-        "monogram": "D",
-        "seed": "build-with-gemini-2026:38:Diffusion Enjoyers",
-        "alt": "Graphic placeholder for Diffusion Enjoyers"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/38.png",
+        "sourceUrl": "https://github.com/anuragroy2001/diffusiontest/",
+        "label": "Project preview",
+        "alt": "Public project preview for Diffusion Enjoyers",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-green",
+          "monogram": "D",
+          "seed": "build-with-gemini-2026:38:Diffusion Enjoyers",
+          "alt": "Build poster for Diffusion Enjoyers"
+        }
       }
     },
     {
@@ -634,11 +797,18 @@
       "publicId": 44,
       "name": "Muning",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-blue",
-        "monogram": "M",
-        "seed": "build-with-gemini-2026:60:Muning",
-        "alt": "Graphic placeholder for Muning"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/60.png",
+        "sourceUrl": "https://github.com/spacerac00n/Muning_gemini_hackathon",
+        "label": "Project preview",
+        "alt": "Public project preview for Muning",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-blue",
+          "monogram": "M",
+          "seed": "build-with-gemini-2026:60:Muning",
+          "alt": "Build poster for Muning"
+        }
       }
     },
     {
@@ -646,11 +816,18 @@
       "publicId": 45,
       "name": "Origin Silver",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-red",
-        "monogram": "O",
-        "seed": "build-with-gemini-2026:26:Origin Silver",
-        "alt": "Graphic placeholder for Origin Silver"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/26.png",
+        "sourceUrl": "https://www.dropbox.com/t/tEDDdFGQk9jxqgJv",
+        "label": "Project preview",
+        "alt": "Public project preview for Origin Silver",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-red",
+          "monogram": "O",
+          "seed": "build-with-gemini-2026:26:Origin Silver",
+          "alt": "Build poster for Origin Silver"
+        }
       }
     },
     {
@@ -662,13 +839,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/0wHAMkd0BGk/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/0wHAMkd0BGk",
         "videoId": "0wHAMkd0BGk",
+        "label": "From the demo",
         "alt": "Video thumbnail for BookWorm",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-green",
           "monogram": "B",
           "seed": "build-with-gemini-2026:47:BookWorm",
-          "alt": "Graphic placeholder for BookWorm"
+          "alt": "Build poster for BookWorm"
         }
       }
     },
@@ -681,13 +859,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/-8fKWYid8mE/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/-8fKWYid8mE",
         "videoId": "-8fKWYid8mE",
+        "label": "From the demo",
         "alt": "Video thumbnail for Xin",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-blue",
           "monogram": "X",
           "seed": "build-with-gemini-2026:34:Xin",
-          "alt": "Graphic placeholder for Xin"
+          "alt": "Build poster for Xin"
         }
       }
     },
@@ -700,7 +879,7 @@
         "palette": "gemini-blue",
         "monogram": "V",
         "seed": "build-with-gemini-2026:58:VisionPath",
-        "alt": "Graphic placeholder for VisionPath"
+        "alt": "Build poster for VisionPath"
       }
     },
     {
@@ -712,13 +891,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/x25d2_Ezd30/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/x25d2_Ezd30",
         "videoId": "x25d2_Ezd30",
+        "label": "From the demo",
         "alt": "Video thumbnail for Agrim Tycoon",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-blue",
           "monogram": "A",
           "seed": "build-with-gemini-2026:28:Agrim Tycoon",
-          "alt": "Graphic placeholder for Agrim Tycoon"
+          "alt": "Build poster for Agrim Tycoon"
         }
       }
     },
@@ -731,7 +911,7 @@
         "palette": "gemini-yellow",
         "monogram": "A",
         "seed": "build-with-gemini-2026:49:Agri",
-        "alt": "Graphic placeholder for Agri"
+        "alt": "Build poster for Agri"
       }
     },
     {
@@ -739,11 +919,18 @@
       "publicId": 51,
       "name": "Porchlight",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-red",
-        "monogram": "P",
-        "seed": "build-with-gemini-2026:36:Porchlight",
-        "alt": "Graphic placeholder for Porchlight"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/36.png",
+        "sourceUrl": "https://github.com/abhijitt/porchlight",
+        "label": "Project preview",
+        "alt": "Public project preview for Porchlight",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-red",
+          "monogram": "P",
+          "seed": "build-with-gemini-2026:36:Porchlight",
+          "alt": "Build poster for Porchlight"
+        }
       }
     },
     {
@@ -751,11 +938,18 @@
       "publicId": 52,
       "name": "Anchor",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-blue",
-        "monogram": "A",
-        "seed": "build-with-gemini-2026:32:Anchor",
-        "alt": "Graphic placeholder for Anchor"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/32.png",
+        "sourceUrl": "https://github.com/Kk120306/gemini-hackathon",
+        "label": "Project preview",
+        "alt": "Public project preview for Anchor",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-blue",
+          "monogram": "A",
+          "seed": "build-with-gemini-2026:32:Anchor",
+          "alt": "Build poster for Anchor"
+        }
       }
     },
     {
@@ -763,11 +957,18 @@
       "publicId": 53,
       "name": "87K Windows",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-blue",
-        "monogram": "8",
-        "seed": "build-with-gemini-2026:43:87K Windows",
-        "alt": "Graphic placeholder for 87K Windows"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/43.png",
+        "sourceUrl": "https://github.com/tanveerriaz/87k-windows",
+        "label": "Project preview",
+        "alt": "Public project preview for 87K Windows",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-blue",
+          "monogram": "8",
+          "seed": "build-with-gemini-2026:43:87K Windows",
+          "alt": "Build poster for 87K Windows"
+        }
       }
     },
     {
@@ -775,11 +976,18 @@
       "publicId": 54,
       "name": "Family Daily",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-red",
-        "monogram": "F",
-        "seed": "build-with-gemini-2026:57:Family Daily",
-        "alt": "Graphic placeholder for Family Daily"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/57.png",
+        "sourceUrl": "https://github.com/flyfy1/family-context",
+        "label": "Project preview",
+        "alt": "Public project preview for Family Daily",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-red",
+          "monogram": "F",
+          "seed": "build-with-gemini-2026:57:Family Daily",
+          "alt": "Build poster for Family Daily"
+        }
       }
     },
     {
@@ -791,13 +999,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/FAlLKinXCZY/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/FAlLKinXCZY",
         "videoId": "FAlLKinXCZY",
+        "label": "From the demo",
         "alt": "Video thumbnail for Aldex",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-red",
           "monogram": "A",
           "seed": "build-with-gemini-2026:29:Aldex",
-          "alt": "Graphic placeholder for Aldex"
+          "alt": "Build poster for Aldex"
         }
       }
     },
@@ -810,13 +1019,14 @@
         "thumbnailUrl": "https://i.ytimg.com/vi/Bu70g4V9CpQ/hqdefault.jpg",
         "sourceUrl": "https://youtu.be/Bu70g4V9CpQ",
         "videoId": "Bu70g4V9CpQ",
+        "label": "From the demo",
         "alt": "Video thumbnail for Catch&Deco",
         "fallback": {
           "kind": "generated_fallback",
           "palette": "gemini-yellow",
           "monogram": "C",
           "seed": "build-with-gemini-2026:22:Catch&Deco",
-          "alt": "Graphic placeholder for Catch&Deco"
+          "alt": "Build poster for Catch&Deco"
         }
       }
     },
@@ -829,7 +1039,7 @@
         "palette": "gemini-blue",
         "monogram": "K",
         "seed": "build-with-gemini-2026:39:KakiCompanion AI",
-        "alt": "Graphic placeholder for KakiCompanion AI"
+        "alt": "Build poster for KakiCompanion AI"
       }
     },
     {
@@ -837,11 +1047,18 @@
       "publicId": 58,
       "name": "Retro TV",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-red",
-        "monogram": "R",
-        "seed": "build-with-gemini-2026:27:Retro TV",
-        "alt": "Graphic placeholder for Retro TV"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/27.png",
+        "sourceUrl": "https://github.com/papermelon/retro-tv",
+        "label": "Project preview",
+        "alt": "Public project preview for Retro TV",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-red",
+          "monogram": "R",
+          "seed": "build-with-gemini-2026:27:Retro TV",
+          "alt": "Build poster for Retro TV"
+        }
       }
     },
     {
@@ -849,11 +1066,18 @@
       "publicId": 59,
       "name": "KopiKakis",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-yellow",
-        "monogram": "K",
-        "seed": "build-with-gemini-2026:35:KopiKakis",
-        "alt": "Graphic placeholder for KopiKakis"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/35.png",
+        "sourceUrl": "https://github.com/gabriel-wan/kopikaki",
+        "label": "Project preview",
+        "alt": "Public project preview for KopiKakis",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-yellow",
+          "monogram": "K",
+          "seed": "build-with-gemini-2026:35:KopiKakis",
+          "alt": "Build poster for KopiKakis"
+        }
       }
     },
     {
@@ -865,7 +1089,7 @@
         "palette": "gemini-blue",
         "monogram": "M",
         "seed": "build-with-gemini-2026:52:Memento",
-        "alt": "Graphic placeholder for Memento"
+        "alt": "Build poster for Memento"
       }
     },
     {
@@ -873,11 +1097,18 @@
       "publicId": 61,
       "name": "Treasures Bowl",
       "visual": {
-        "kind": "generated_fallback",
-        "palette": "gemini-red",
-        "monogram": "T",
-        "seed": "build-with-gemini-2026:18:Treasures Bowl",
-        "alt": "Graphic placeholder for Treasures Bowl"
+        "kind": "project_preview",
+        "imageUrl": "/project-previews/18.png",
+        "sourceUrl": "https://supercut.ai/share/thebuildercourse/nJ2Nr9llhG1S3IZ9HJnBi2",
+        "label": "From the demo",
+        "alt": "Frame from the submitted demo for Treasures Bowl",
+        "fallback": {
+          "kind": "generated_fallback",
+          "palette": "gemini-red",
+          "monogram": "T",
+          "seed": "build-with-gemini-2026:18:Treasures Bowl",
+          "alt": "Build poster for Treasures Bowl"
+        }
       }
     }
   ]

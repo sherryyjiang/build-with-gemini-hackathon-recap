@@ -55,7 +55,7 @@ Google Sans Flex Variable is bundled locally and used for every role. Large head
 
 ## Layout and components
 
-Sections use generous desktop margins and full-width ruled bands. The hero pairs the deck's quiet lockup and large headline with a documentary room photograph. Tracks form one compact three-column band. Winners use truthful team photography, while the project index uses video stills where available and deterministic Gemini-palette visuals everywhere else.
+Sections use generous desktop margins and full-width ruled bands. The hero pairs the deck's quiet lockup and large headline with the official group photograph. Tracks form one compact three-column band. Winners use high-resolution team photography. The project index follows a truthful visual hierarchy: submitted demo frame, public project preview, then a consistent Gemini-palette build poster.
 
 Search, filters, and link actions are square, visibly ruled, and high contrast. Active controls use a blue border and faint blue wash. Project and demo links are separate status lanes: available links use green text; links that need attention use a yellow rule and label.
 
@@ -67,5 +67,6 @@ Photography is documentary and full-bleed within a structured mosaic. Captions u
 - Keep the page mostly flat: photography may use restrained rounded frames, while core information remains ruled and editorial.
 - Preserve the three track colors as meaning, not decoration.
 - Keep the seven finalists first; all other builds use the stable public shuffle and public numbering.
-- Never remove a supplied project or demo URL silently. Show all alternates and label incomplete public links.
+- Never remove a supplied project or demo URL silently. Show all alternates and label incomplete public links independently and with a dated audit note.
+- Do not use stock photography or invented product mockups for submissions that lack a usable image.
 - Respect reduced-motion preferences and maintain visible keyboard focus.

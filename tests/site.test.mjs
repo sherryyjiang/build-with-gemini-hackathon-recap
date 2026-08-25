@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { access, readFile } from "node:fs/promises";
 import test from "node:test";
 
 test("public submission data excludes contact information", async () => {
@@ -25,6 +25,9 @@ test("recap includes every confirmed winner", async () => {
   for (const project of ["Gemma Companion", "Project Rehab", "OrcAIPlay", "Sentry"]) {
     assert.match(page, new RegExp(project));
   }
+  assert.match(page, /\/photos\/hero-group\.jpg/);
+  assert.match(page, /\/photos\/winner-gemma-companion-1e57508b\.jpg/);
+  assert.doesNotMatch(page, /remarkable day/i);
 });
 
 test("gallery asset manifest covers every public submission without contact data", async () => {
@@ -35,12 +38,16 @@ test("gallery asset manifest covers every public submission without contact data
   const submissions = JSON.parse(submissionSource);
   const manifest = JSON.parse(assetSource);
   const thumbnails = manifest.assets.filter(({ visual }) => visual.kind === "youtube_thumbnail");
+  const previews = manifest.assets.filter(({ visual }) => visual.kind === "project_preview");
 
   assert.equal(manifest.assets.length, submissions.length);
   assert.deepEqual(manifest.assets.map(({ id }) => id), submissions.map(({ id }) => id));
   assert.equal(manifest.counts.youtubeThumbnails, thumbnails.length);
-  assert.equal(manifest.counts.generatedFallbacks + thumbnails.length, submissions.length);
+  assert.equal(manifest.counts.projectPreviews, previews.length);
+  assert.equal(manifest.counts.generatedFallbacks + thumbnails.length + previews.length, submissions.length);
   assert.equal(assetSource.includes("@gmail.com"), false);
   assert.equal(assetSource.includes("Contact Email"), false);
   assert.equal(thumbnails.every(({ visual }) => /^https:\/\/i\.ytimg\.com\/vi\/[A-Za-z0-9_-]{11}\/hqdefault\.jpg$/.test(visual.thumbnailUrl)), true);
+  assert.equal(previews.every(({ visual }) => /^\/project-previews\/\d+\.png$/.test(visual.imageUrl)), true);
+  await Promise.all(previews.map(({ visual }) => access(new URL(`../public${visual.imageUrl}`, import.meta.url))));
 });

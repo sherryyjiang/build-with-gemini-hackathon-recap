@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Build with Gemini Hackathon 2026 — 61 builds, one remarkable day";
+export const alt = "Build with Gemini Hackathon 2026 — 61 builds from one Saturday at Lorong AI";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -23,8 +23,8 @@ export default function OpenGraphImage() {
           <span style={{ display: "flex", width: 24, height: 24, background: "#9b72cb", clipPath: "polygon(50% 0, 61% 39%, 100% 50%, 61% 61%, 50% 100%, 39% 61%, 0 50%, 39% 39%)" }} /> Build with Gemini Hackathon 2026
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <div style={{ display: "flex", fontSize: 112, fontWeight: 400, letterSpacing: -6, lineHeight: .88 }}>61 builds.</div>
-          <div style={{ display: "flex", color: "#1a73e8", fontSize: 112, fontWeight: 400, letterSpacing: -6, lineHeight: .88 }}>One remarkable day.</div>
+          <div style={{ display: "flex", fontSize: 104, fontWeight: 400, letterSpacing: -5, lineHeight: .9 }}>61 builds from</div>
+          <div style={{ display: "flex", color: "#1a73e8", fontSize: 92, fontWeight: 400, letterSpacing: -5, lineHeight: .92 }}>one Saturday at Lorong AI.</div>
         </div>
         <div style={{ display: "flex", alignItems: "center", borderTop: "1px solid #dadce0", paddingTop: 20, color: "#5f6368", fontSize: 18 }}>
           <span style={{ display: "flex", width: "34%" }}>22 August 2026 · Singapore</span>

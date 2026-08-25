@@ -27,7 +27,7 @@ const tracks = [
 ] as const;
 
 const winners = [
-  { award: "Best Use of Gemma", project: "Gemma Companion", color: "blue", image: "/photos/winner-gemma-companion.jpg", alt: "Gemma Companion team members pose beside the Best Use of Gemma winner display" },
+  { award: "Best Use of Gemma", project: "Gemma Companion", color: "blue", image: "/photos/winner-gemma-companion-1e57508b.jpg", alt: "Gemma Companion team members pose beside the Best Use of Gemma winner display" },
   { award: "Best Elderly Hack", project: "Project Rehab", color: "red", image: "/photos/winner-project-rehab.jpg", alt: "Project Rehab team members pose beside the Best Elderly Hack winner display" },
   { award: "Most Creative Gemini Hack", project: "OrcAIPlay", color: "yellow", image: "/photos/winner-orcaiplay.jpg", alt: "OrcAIPlay team members pose beside the Most Creative Gemini Hack winner display" },
   { award: "Honorable Mention", project: "Sentry", color: "green", image: "/photos/winner-sentry.jpg", alt: "Sentry team members pose beside the Honorable Mention display" },
@@ -75,13 +75,13 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-copy">
           <div className="hero-lockup"><GeminiMark /><span>Build with Gemini Hackathon 2026</span></div>
-          <h1>61 builds.<br /><span>One remarkable day.</span></h1>
-          <p>Builders brought Gemini and Gemma into open models, elder-first technology, creative tools, games, safety, memory, and delight.</p>
-          <a className="primary-link" href="#gallery">Explore every build <Arrow /></a>
+          <h1>61 builds from<br /><span>one Saturday at Lorong AI.</span></h1>
+          <p>Teams used Gemini and Gemma to make on-device tools, products for older adults, games, creative experiments, and more.</p>
+          <a className="primary-link" href="#gallery">Browse all 61 builds <Arrow /></a>
         </div>
         <figure className="hero-photo">
-          <Image src="/photos/audience.jpg" alt="Builders listening together during the Build with Gemini Hackathon at Lorong AI" fill preload sizes="(max-width: 760px) 100vw, 48vw" />
-          <figcaption>Saturday morning at Lorong AI · 22 August 2026</figcaption>
+          <Image src="/photos/hero-group.jpg" alt="Participants and organizers together at the Build with Gemini Hackathon at Lorong AI" fill preload quality={90} sizes="(max-width: 760px) 100vw, 48vw" />
+          <figcaption>Build with Gemini Hackathon · 22 August 2026</figcaption>
         </figure>
         <div className="hero-facts" aria-label="Event summary">
           <div><strong>22 Aug 2026</strong><span>Saturday</span></div>
@@ -93,8 +93,8 @@ export default function Home() {
 
       <section className="tracks-section" id="tracks" aria-labelledby="tracks-title">
         <div className="section-heading compact-heading">
-          <h2 id="tracks-title">Three tracks, three ways to push further.</h2>
-          <p>Each winning track awarded US$1,000. Projects could enter up to two tracks.</p>
+          <h2 id="tracks-title">Three prize tracks</h2>
+          <p>Each track awarded US$1,000. Projects could enter up to two.</p>
         </div>
         <div className="track-stack">
           {tracks.map((track) => (
@@ -113,13 +113,13 @@ export default function Home() {
       <section className="winners" id="winners" aria-labelledby="winners-title">
         <div className="section-heading split-heading">
           <h2 id="winners-title">The winning builds</h2>
-          <p>Three track winners and one project recognized with an honorable mention.</p>
+          <p>Three track winners, plus one honorable mention.</p>
         </div>
         <div className="winner-list">
           {winners.map((winner) => (
             <article className={`winner-row winner-${winner.color}`} key={winner.award}>
               <figure>
-                <Image src={winner.image} alt={winner.alt} fill sizes="(max-width: 760px) 100vw, 50vw" />
+                <Image src={winner.image} alt={winner.alt} fill quality={90} sizes="(max-width: 760px) 100vw, 50vw" />
               </figure>
               <div className="winner-copy"><p>{winner.award}</p><h3>{winner.project}</h3></div>
             </article>
@@ -129,8 +129,8 @@ export default function Home() {
 
       <section className="photos" id="photos" aria-labelledby="photos-title">
         <div className="section-heading split-heading">
-          <h2 id="photos-title">Saturday,<br />in the room.</h2>
-          <p>Four frames from the day—from the first briefing to the concentrated middle of the build.</p>
+          <h2 id="photos-title">Scenes from Saturday</h2>
+          <p>Four moments from the briefing, the build, and the lunch break.</p>
         </div>
         <div className="photo-grid">
           {photos.map((photo, index) => (
@@ -140,13 +140,13 @@ export default function Home() {
             </figure>
           ))}
         </div>
-        <a className="album-link" href="https://pics.65labs.org/albums/7146eebc-7b75-430e-b854-da18ca66046c" target="_blank" rel="noreferrer">View the full Saturday album <Arrow /><span className="sr-only"> (opens in new tab)</span></a>
+        <a className="album-link" href="https://pics.65labs.org/s/build-with-gemini-aug22" target="_blank" rel="noreferrer">View the full Saturday album <Arrow /><span className="sr-only"> (opens in new tab)</span></a>
       </section>
 
       <section className="gallery-section" id="gallery" aria-labelledby="gallery-title">
         <div className="section-heading split-heading">
-          <h2 id="gallery-title">Every build,<br />ready to explore.</h2>
-          <p>The seven finalists lead the index. Every other submission is shown in a stable shuffled order so the preliminary ranking cannot be inferred. Links marked “needs update” were not public-ready when checked on 24 August 2026.</p>
+          <h2 id="gallery-title">Explore all 61 builds</h2>
+          <p>Finalists appear first. The remaining projects are shuffled so submission order does not imply a ranking. Link status reflects a public-access check on 25 August 2026.</p>
         </div>
         <ProjectGallery submissions={submissions as Submission[]} />
       </section>

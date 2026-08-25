@@ -24,8 +24,10 @@ type LinkAudit = {
 };
 
 type GalleryVisual = {
-  kind: "youtube_thumbnail" | "generated_fallback";
+  kind: "youtube_thumbnail" | "project_preview" | "generated_fallback";
   thumbnailUrl?: string;
+  imageUrl?: string;
+  label?: string;
   palette?: string;
   monogram?: string;
   alt: string;
@@ -38,16 +40,24 @@ const visualById = new Map(
 const filters = ["All", "Best Use of Gemma", "Best Elderly Hack", "Most Creative Gemini Hack"];
 
 const reasonLabels: Record<string, string> = {
-  not_found: "Broken link",
-  server_error: "Server error",
+  not_found: "Site unavailable when checked",
+  server_error: "Site unavailable when checked",
   auth_redirect: "Sign-in required",
-  edit_link: "Edit link",
-  cookie_gate: "Check public access",
+  edit_link: "May require edit access",
+  cookie_gate: "Could not verify public access",
   generic_target: "Generic destination",
-  wrong_content_type: "Not a demo",
+  wrong_content_type: "Repository supplied as demo",
   shortener_blocked: "Short link blocked",
-  not_submitted: "Not submitted",
+  not_submitted: "No URL supplied",
 };
+
+function auditLabel(audit: LinkAudit) {
+  if (audit.status === "complete") return "Available";
+  if (audit.status === "missing" || audit.reason === "not_submitted") return "Not submitted";
+  if (["auth_redirect", "edit_link", "cookie_gate"].includes(audit.reason)) return "May require access";
+  if (["generic_target", "wrong_content_type"].includes(audit.reason)) return "Direct demo link needed";
+  return "Unavailable when checked";
+}
 
 function ExternalArrow() {
   return (
@@ -59,17 +69,22 @@ function ExternalArrow() {
 
 function LinkGroup({ label, links, audit }: { label: string; links: string[]; audit: LinkAudit }) {
   const needsUpdate = audit.status !== "complete";
+  const actionLabel = audit.status === "complete"
+    ? `Open ${label.toLowerCase()}`
+    : ["not_found", "server_error", "shortener_blocked"].includes(audit.reason)
+      ? "Try submitted link"
+      : "Open submitted link";
   return (
     <div className={`link-group ${needsUpdate ? "link-group-warning" : ""}`}>
       <div className="link-heading">
         <span>{label}</span>
-        <small>{needsUpdate ? "Needs update" : "Available"}</small>
+        <small>{auditLabel(audit)}</small>
         {needsUpdate ? <em>{reasonLabels[audit.reason] ?? "Check access"}</em> : null}
       </div>
       <div className="link-actions">
         {links.length ? links.map((link, index) => (
           <a href={link} target="_blank" rel="noreferrer" key={`${label}-${link}`}>
-            {index === 0 ? "Open" : `Open ${index + 1}`} <ExternalArrow /><span className="sr-only"> (opens in new tab)</span>
+            {index === 0 ? actionLabel : `${actionLabel} ${index + 1}`} <ExternalArrow /><span className="sr-only"> (opens in new tab)</span>
           </a>
         )) : <span className="no-link">Not submitted</span>}
       </div>
@@ -79,25 +94,26 @@ function LinkGroup({ label, links, audit }: { label: string; links: string[]; au
 
 function ProjectVisual({ submission }: { submission: Submission }) {
   const visual = visualById.get(submission.id);
-  if (visual?.kind === "youtube_thumbnail" && visual.thumbnailUrl) {
+  const imageUrl = visual?.kind === "youtube_thumbnail" ? visual.thumbnailUrl : visual?.imageUrl;
+  if (visual && imageUrl && visual.kind !== "generated_fallback") {
     return (
-      <div className="project-visual project-video-visual">
+      <div className={`project-visual ${visual.kind === "youtube_thumbnail" ? "project-video-visual" : "project-preview-visual"}`}>
         <Image
-          src={visual.thumbnailUrl}
+          src={imageUrl}
           alt={visual.alt}
           fill
           sizes="(max-width: 760px) 100vw, 220px"
-          referrerPolicy="no-referrer"
+          referrerPolicy={visual.kind === "youtube_thumbnail" ? "no-referrer" : undefined}
         />
-        <span>Demo still</span>
+        <span>{visual.label ?? (visual.kind === "youtube_thumbnail" ? "From the demo" : "Project preview")}</span>
       </div>
     );
   }
 
   return (
-    <div className={`project-visual project-fallback ${visual?.palette ?? "gemini-blue"}`} role="img" aria-label={visual?.alt ?? `Graphic for ${submission.name}`}>
-      <GeminiVisualMark />
-      <strong>{visual?.monogram ?? submission.name.slice(0, 1).toUpperCase()}</strong>
+    <div className={`project-visual project-fallback ${visual?.palette ?? "gemini-blue"}`} aria-hidden="true">
+      <div className="fallback-mark"><GeminiVisualMark /><strong>{visual?.monogram ?? submission.name.slice(0, 1).toUpperCase()}</strong></div>
+      <div className="fallback-copy"><span>{submission.name}</span><small>{submission.tracks[0] ?? "Open track"}</small></div>
     </div>
   );
 }
@@ -129,7 +145,7 @@ export function ProjectGallery({ submissions }: { submissions: Submission[] }) {
         <label className="search-field">
           <span className="sr-only">Search projects</span>
           <svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="9.5" cy="9.5" r="5.5" fill="none" stroke="currentColor" strokeWidth="1.6" /><path d="m14 14 4.5 4.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /></svg>
-          <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search a team, idea, or technology" />
+          <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search by project, team, or technology" />
         </label>
         <div className="filter-row" aria-label="Filter projects by prize track">
           {filters.map((item) => (
